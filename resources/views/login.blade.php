@@ -22,7 +22,7 @@
       <div class="row d-flex justify-content-center align-items-center h-100">
     
         <div class="col-md-9 col-lg-6 col-xl-5"id="imagenForm">
-          <img src="../img/almacen-registrate.webp" class="img-fluid" alt="Sample image">
+          <img src="./img/almacen-registrate.webp" class="img-fluid" alt="Sample image">
         </div>
         <br>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
