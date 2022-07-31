@@ -21,3 +21,31 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/marmoleria', function () {
+    return view('marmoleria');
+});
+
+Route::get('/menu_principal', function () {
+    return view('menu_principal');
+});
+
+Route::get('/marmoleria', function () {
+    return view('marmoleria');
+});
+
+Route::get('/marmoleria', function () {
+    return view('marmoleria');
+});
+
+Route::get('/marmoleria', function () {
+    return view('marmoleria');
+});
+
+Route::get('/marmoleria', function () {
+    return view('marmoleria');
+});
+
+Route::get('/marmoleria', function () {
+    return view('marmoleria');
+});
