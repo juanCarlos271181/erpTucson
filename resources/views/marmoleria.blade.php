@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
     <?php include(app_path()."/../resources/views/template/head.php");?>
     
@@ -10,6 +10,10 @@
     <header>
         <?php include(app_path()."/../resources/views/template/header.php");?>
     </header>
+
+    <div class="tituloPrincipal">
+       <h4>MARMOLERIA</h4>
+    </div>
 
 <table class=" table table-striped table-hover">
     <thead>

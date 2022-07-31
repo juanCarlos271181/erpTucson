@@ -16,24 +16,24 @@
 
     <div class="row mx-5">
 
-<div class="col ml-5">
-     <div class="card" style="width:10rem; padding:10px">
-         <img src="./img/usuario.jfif" class="card-img-top" alt="imagen de tarjeta">
-      <div class="card-body">
-             <h6>USUARIOS</h6>
-             <a href="./perfil_usuario.php" class="btn btn-dark">ENTRAR</a>
-      </div>
+    <div class="col ml-5">
+<div class="card" style="width:10rem; padding:1px">
+<img src="./img/usuario.jfif" class="card-img-top" alt="imagen de tarjeta">
+         <div class="card-body">
+             <h6>VENTAS</h6>
+             <a href="#"</a>
+         </div>
      </div>
  </div>
 
 
 
 <div class="col ml-8">
-<div class="card" style="width:11rem; padding:11px">
+<div class="card" style="width:10rem; padding:1px">
          <img src="./img/ventas.jpg" class="card-img-top" alt="imagen de tarjeta">
          <div class="card-body">
              <h6>VENTAS</h6>
-             <a href="#" class="btn btn-dark">ENTRAR</a>
+             <a href="#"</a>
          </div>
      </div>
  </div>
@@ -46,13 +46,13 @@
          <img src=" ./img/inventario.webp" class="card-img-top" alt="imagen de tarjeta">
          <div class="card-body">
              <h6>INVENTARIO</h6>
-             <a href="./inventario" class="btn btn-dark">ENTRAR</a>
+             <a href="./inventario"</a>
          </div>
      </div>
  </div>
  </div>
 
-<br><br>
+
 
 
  <div class="row mx-5">
@@ -61,18 +61,18 @@
          <img src=" ./img/logistica2.jpg" class="card-img-top" alt="imagen de tarjeta">
          <div class="card-body">
              <h6>LOGISTICA</h6>
-             <a href="#" class="btn btn-dark">ENTRAR</a>
+             <a href="#"</a>
          </div>
      </div>
  </div>
 
 
  <div class="col">
- <div class="card" style="width:10rem; padding:9px">
+ <div class="card" style="width:10rem; padding:10px">
          <img src="./img/operacion-empresa.jpg " class="card-img-top" alt="imagen de tarjeta">
          <div class="card-body">
-             <h6>OPERACIONES</h6>
-             <a href="#" class="btn btn-dark">ENTRAR</a>
+             <h6>OPERACION</h6>
+             <a href="#"</a>
          </div>
      </div>
  </div>
@@ -80,11 +80,11 @@
 
 
  <div class="col">
- <div class="card" style="width:10rem; padding:8px">
+ <div class="card" style="width:10rem; padding:10px">
          <img src="./img/dashboard.jpg" class="card-img-top" alt="imagen de tarjeta">
          <div class="card-body">
              <h6>DASHBOARD</h6>
-             <a href="#" class="btn btn-dark">ENTRAR</a>
+             <a href="#"</a>
          </div>
      </div>
  </div>

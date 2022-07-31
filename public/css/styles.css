@@ -40,7 +40,9 @@ body{
     width: 200px;
     margin-top: 20px;
 }
-
+.tituloPrincipal{
+    background-color: #3B44F6;
+}
 .imagen{
     width: 80px;
 }
