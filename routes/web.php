@@ -22,6 +22,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/inventario', function () {
+    return view('inventario');
+});
+
 Route::get('/marmoleria', function () {
     return view('marmoleria');
 });
