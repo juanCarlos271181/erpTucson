@@ -2,18 +2,12 @@
 <html lang="es">
 
 <head>
-<?php include(app_path()."/../resources/views/template/head.php");?>
-
-
+  <?php include(app_path()."/../resources/views/template/head.php");?>
 </head>
 
 <body>
-
-
-
   <header>
-  <?php include(app_path()."/../resources/views/template/header.php");?>
-
+    <?php include(app_path()."/../resources/views/template/header.php");?>
   </header>
 <br>
 
@@ -27,7 +21,7 @@
         <br>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
        
-        <form method="post">
+        <div>
         
             <div class="form-outline mb-4">
               <input type="text" id="form3Example3" class="form-control form-control-lg"
@@ -56,10 +50,11 @@
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
-              <button type="submit" name="register" class="btn btn-dark btn-lg"
+              <button type="button" name="register" class="btn btn-dark btn-lg"
+                onclick="window.location='./menu_principal'"
                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar al Sistema</button>
             </div>
-        </form>
+</div>
         </div>
       </div>
     </div>
