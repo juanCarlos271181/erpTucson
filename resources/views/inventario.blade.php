@@ -3,9 +3,6 @@
 <html lang="es">
 
 <head>
-<<<<<<< HEAD
-<?php include(app_path()."/../resources/views/template/head.php");?>
-=======
     <?php include(app_path()."/../resources/views/template/head.php");?>
 
     <link type="text/css" rel="stylesheet" href="assets/jquery-ui-1.11.4.custom/jquery-ui.min.css"/>
@@ -96,13 +93,11 @@
             });
         });
     </script>
->>>>>>> origin/develop
 
 </head>
 
 <body>
     <header>
-<<<<<<< HEAD
     
     <?php include(app_path()."/../resources/views/template/header.php");?>                   
   
@@ -114,12 +109,6 @@
 
 
 
-=======
-        <?php include(app_path()."/../resources/views/template/header.php");?>
-    </header>
-
-<br>
->>>>>>> origin/develop
 
 <style>
     select.tc_select {
@@ -183,14 +172,6 @@
 </footer>  
  
 
-<<<<<<< HEAD
-    <footer class="py-5 bg-dark">
-    <?php include(app_path()."/../resources/views/template/footer.php");?>
-    </footer>
-
-    
-=======
->>>>>>> origin/develop
 </body>
 
 
