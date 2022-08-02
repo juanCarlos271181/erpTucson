@@ -33,19 +33,24 @@ body{
     margin:0px auto;
     width: 200px;
     margin-top: 20px;
-}
+};
 
 #tituloProducto{
     margin:0px auto;
     width: 200px;
     margin-top: 20px;
-}
+};
+
+
 .tituloPrincipal{
-    background-color: #3B44F6;
-}
+    
+    background:blue;
+    font-size: 40px;
+};
+
 .imagen{
     width: 80px;
-}
+};
 
 .dropdown-menu{
     display: flex;
@@ -82,3 +87,4 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
