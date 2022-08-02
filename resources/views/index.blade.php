@@ -10,21 +10,16 @@
 <body>
 
 <header>
-
-<?php include(app_path()."/../resources/views/template/header.php");?>
-    
+    <?php include(app_path()."/../resources/views/template/header.php");?>
 </header>
-
     
 <div class="m-0 text-center">
- <img src="./img/controlInventarios.webp">
-    </div>
+    <img src="./img/controlInventarios.webp">
+</div>
 
-
-
-    <footer class="py-5 bg-dark">
+<footer class="py-5 bg-dark">
     <?php include(app_path()."/../resources/views/template/footer.php");?>
-    </footer>
+</footer>
 
 </body>
 </html>
