@@ -61,3 +61,7 @@ Route::get('/griferia', function () {
 Route::get('/ceramicos', function () {
     return view('ceramicos');
 });
+
+Route::get('/prueba', function () {
+    return view('prueba');
+});

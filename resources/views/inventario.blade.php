@@ -16,6 +16,8 @@
 </head>
 
 <body>
+
+
     <header>
         <?php include(app_path()."/../resources/views/template/header.php");?>                   
     </header>
@@ -47,6 +49,9 @@
     }
 
 </style>
+
+
+
 
 <div class="refine-datatable">
     <div class="container-square" style="margin:20px;border: 20px;">
