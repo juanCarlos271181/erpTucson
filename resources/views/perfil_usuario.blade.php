@@ -39,9 +39,10 @@
                 <td>juancarlos996@gmail.com</td>
                 <td>1164369090</td>
                 <td>Supervisor</td>
-                <td><img class="imagen" src="../img/eye.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/lapiz.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/papelera3.png"style="height: 30px;width:30px"></td>
+                <td>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/eye.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/lapiz.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/papelera3.png"style="height: 30px;width:30px"></td><a/>
                 
                 
                        
@@ -53,9 +54,10 @@
                 <td>Roger.munoz@gmail.com</td>
                 <td>1164547233</td>
                 <td>Administrador</td>
-                <td><img class="imagen" src="../img/eye.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/lapiz.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/papelera3.png"style="height: 30px;width:30px"></td>
+                <td>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/eye.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/lapiz.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/papelera3.png"style="height: 30px;width:30px"></td><a/>
                 
                 
                        
@@ -68,9 +70,10 @@
                 <td>luisagabrielar@gmail.com</td>
                 <td>1164234522</td>
                 <td>Vendedora</td>
-                <td><img class="imagen" src="../img/eye.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/lapiz.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/papelera3.png"style="height: 30px;width:30px"></td>
+                <td>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/eye.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/lapiz.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/papelera3.png"style="height: 30px;width:30px"></td><a/>
                 
                 
                        
@@ -82,9 +85,10 @@
                 <td>gaby@gmail.com</td>
                 <td>1164346538</td>
                 <td>Analista</td>
-                <td><img class="imagen" src="../img/eye.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/lapiz.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/papelera3.png"style="height: 30px;width:30px"></td>
+                <td>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/eye.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/lapiz.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/papelera3.png"style="height: 30px;width:30px"></td><a/>
                 
                 
                        
@@ -96,9 +100,10 @@
                 <td>viky@gmail.com</td>
                 <td>1164369090</td>
                 <td>Vendedora</td>
-                <td><img class="imagen" src="../img/eye.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/lapiz.png"style="height: 30px;width:30px">
-                <img class="imagen" src="../img/papelera3.png"style="height: 30px;width:30px"></td>
+                <td>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/eye.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"><img class="imagen" src="./img/lapiz.png"style="height: 30px;width:30px"><a/>
+                <a href="./perfil_usuario" class="button"> <img class="imagen" src="./img/papelera3.png"style="height: 30px;width:30px"></td><a/>
                 
                 
                        

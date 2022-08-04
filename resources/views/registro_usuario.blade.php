@@ -15,30 +15,34 @@
       <header>
            <?php include(app_path()."/../resources/views/template/header.php");?>
       </header>
-      <div class="tituloPrincipal">
-       <h4>REGISTRO DE USUARIOS</h4>
-    </div>
-<br>
+      
+     
+
 
   <section class="vh-100" id="">
     <div class="container-fluid h-custom">
-      <div class="row d-flex justify-content-center align-items-center h-100">
+      <br><br>
+      <div class="row d-flex justify-content-center h-100">
     
-        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenForm">
-          <img src="./img/ceramicos/home_oficce2.jpeg" class="img-fluid" alt="Sample image">
+        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenRegistro">
+          
+          <img src="./img/ceramicos/home_oficce2.jpeg" class="img-registro" alt="Sample image">
+         
         </div>
         <br>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
 
-        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenForm">
-          <img src="./img/ceramicos/registro.png" class="img-fluid" alt="Sample image">
+        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenIngresar">
+          <img src="./img/registro.png" class="img-fluid" alt="Sample image">
         </div>
+
+        
 
         <form method="post">
 
         <div class="form-outline mb-4">
               <input type="text" id="form3Example3" class="form-control form-control-lg"
-                placeholder="Nombre y apellido" />
+                placeholder="Nombre y Apellido" />
               <label class="form-label" for="form3Example3"></label>
              </div>
 
@@ -73,17 +77,28 @@
               </div>
               <a href="#!" class="text-body">you forgot password?</a>
             </div>
-
+<div class="d-flex">
             <div class="text-center text-lg-start mt-4 pt-2">
               <button type="submit" name="register" class="btn btn-dark btn-lg"
-                style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar al Sistema</button>
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Registrar</button>
             </div>
+
+            <div class="text-center text-lg-start mt-4 pt-2">
+            <a href="./perfil_usuario">
+              <button type="submit" name="register" class="btn btn-primary btn-lg"
+              onclick="window.location='./perfil_usuario'"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Modificar</button>
+</a>
+            </div>
+</div>
         </form>
         </div>
       </div>
     </div>
 
 
+</section>
+  
     <footer class="py-5 bg-dark">
     
  <?php include(app_path()."/../resources/views/template/footer.php");?>

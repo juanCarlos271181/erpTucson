@@ -35,10 +35,30 @@ body{
     margin-top: 20px;
 }
 
+#imagenIngresar{
+    height: 120px;
+    margin-left: 145px;
+}
+
+#imagenRegistro{
+    height: 40%;
+}
+.img-registro{
+height: 250%;
+margin: 0 40px 30px;
+margin-bottom: 40px;
+
+
+}
+
 #tituloProducto{
     margin:0px auto;
     width: 200px;
     margin-top: 20px;
+}
+
+.tituloPrincipal{
+    background-color:#E2DCC8;
 }
 
 .imagen{

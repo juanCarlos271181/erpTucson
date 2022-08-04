@@ -18,10 +18,10 @@
 
     <div class="col ml-5">
 <div class="card" style="width:10rem; padding:1px">
-<img src="./img/usuario.jfif" class="card-img-top" alt="imagen de tarjeta">
+<a href="./registro_usuario" class="button"><img src="./img/usuario.jfif" class="card-img-top" alt="imagen de tarjeta"></a>
          <div class="card-body">
-             <h6>VENTAS</h6>
-             <a href="#"</a>
+             <h6>USUARIOS</h6>
+             
          </div>
      </div>
  </div>
@@ -43,10 +43,9 @@
 
  <div class="col ml-8">
  <div class="card" style="width:10rem; padding:10px">
-         <img src=" ./img/inventario.webp" class="card-img-top" alt="imagen de tarjeta">
+ <a href="./inventario" class="button"><img src=" ./img/inventario.webp" class="card-img-top" alt="imagen de tarjeta"></a>
          <div class="card-body">
-             <h6>INVENTARIO</h6>
-             <a href="./inventario"</a>
+           <h6>INVENTARIO</h6>     
          </div>
      </div>
  </div>
