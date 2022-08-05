@@ -70,25 +70,26 @@
             <div class="d-flex justify-content-between align-items-center">
 
               <div class="form-check mb-0">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-                <label class="form-check-label" for="form2Example3">
-                  To remember
-                </label>
+                
+              
               </div>
-              <a href="#!" class="text-body">you forgot password?</a>
+              
             </div>
-<div class="d-flex">
+          <div class="d-flex justify-content-around">
             <div class="text-center text-lg-start mt-4 pt-2">
               <button type="submit" name="register" class="btn btn-dark btn-lg"
+              onclick="window.location='./index'"
                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Registrar</button>
             </div>
-
+            
+            
+            
             <div class="text-center text-lg-start mt-4 pt-2">
-            <a href="./perfil_usuario">
-              <button type="submit" name="register" class="btn btn-primary btn-lg"
-              onclick="window.location='./perfil_usuario'"
-                style="padding-left: 2.5rem; padding-right: 2.5rem;">Modificar</button>
-</a>
+            <button type="submit" name="register" class="btn btn-primary btn-lg"
+            onclick="window.location='./registro_usuario'"
+               style="padding-left: 2.5rem; padding-right: 2.5rem;">Modificar</button>
+
+
             </div>
 </div>
         </form>

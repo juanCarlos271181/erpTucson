@@ -14,11 +14,11 @@
     <br>
   
 
-    <div class="row mx-5">
-
+    
+<div class="contenedorMenu d-flex">
     <div class="col ml-5">
-<div class="card" style="width:10rem; padding:1px">
-<a href="./registro_usuario" class="button"><img src="./img/usuario.jfif" class="card-img-top" alt="imagen de tarjeta"></a>
+      <div class="card" style="width:10rem; padding:1px">
+       <a href="./registro_usuario" class="button"><img src="./img/usuario.jfif" class="card-img-top" alt="imagen de tarjeta"></a>
          <div class="card-body">
              <h6>USUARIOS</h6>
              
@@ -28,8 +28,8 @@
 
 
 
-<div class="col ml-8">
-<div class="card" style="width:10rem; padding:1px">
+        <div class="col">
+        <div class="card" style="width:10rem; padding:1px">
          <img src="./img/ventas.jpg" class="card-img-top" alt="imagen de tarjeta">
          <div class="card-body">
              <h6>VENTAS</h6>
@@ -41,7 +41,7 @@
 
 
 
- <div class="col ml-8">
+ <div class="col">
  <div class="card" style="width:10rem; padding:10px">
  <a href="./inventario" class="button"><img src=" ./img/inventario.webp" class="card-img-top" alt="imagen de tarjeta"></a>
          <div class="card-body">
@@ -54,7 +54,7 @@
 
 
 
- <div class="row mx-5">
+ 
  <div class="col">
  <div class="card" style="width:10rem; padding:10px">
          <img src=" ./img/logistica2.jpg" class="card-img-top" alt="imagen de tarjeta">
@@ -83,6 +83,17 @@
          <img src="./img/dashboard.jpg" class="card-img-top" alt="imagen de tarjeta">
          <div class="card-body">
              <h6>DASHBOARD</h6>
+             <a href="#"</a>
+         </div>
+     </div>
+ </div>
+
+
+ <div class="col">
+ <div class="card" style="width:11rem; padding:1px">
+         <img src="./img/dashboard.jpg" class="card-img-top" alt="imagen de tarjeta">
+         <div class="card-body">
+             <h6>MOVIMIENTOS</h6>
              <a href="#"</a>
          </div>
      </div>

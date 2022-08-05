@@ -22,6 +22,10 @@
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
        
         <div>
+
+        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenCandado">
+          <img src="./img/candado.png" class="img-fluid" alt="Sample image">
+        </div>
         
             <div class="form-outline mb-4">
               <input type="text" id="form3Example3" class="form-control form-control-lg"
@@ -43,10 +47,10 @@
               <div class="form-check mb-0">
                 <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
                 <label class="form-check-label" for="form2Example3">
-                  To remember
+                Recordar
                 </label>
               </div>
-              <a href="#!" class="text-body">you forgot password?</a>
+              <a href="./registro_usuario" class="text-body">Registrarme</a>
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
@@ -54,7 +58,7 @@
                 onclick="window.location='./menu_principal'"
                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar al Sistema</button>
             </div>
-</div>
+    </div>
         </div>
       </div>
     </div>
