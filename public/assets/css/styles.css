@@ -7,9 +7,7 @@
 .dashboarContenedor{
     width: 100%;
 
-    
-    
-    
+      
 };
 
 
@@ -25,9 +23,10 @@
     height: 80px;
     width: 40%;
 }
-body{
-    background:#F7F5F2;
+.body{
+    background:#E2DCC8;
 }
+
 
 #titulo{
     margin:0px auto;
@@ -43,10 +42,10 @@ body{
 #imagenRegistro{
     height: 40%;
 }
-
-#imagenCandado{
-    
+.contenedorMenu{
+    display: flex;
 }
+
 
 .img-registro{
 height: 250%;
@@ -56,6 +55,7 @@ margin-bottom: 40px;
 
 }
 
+
 #tituloProducto{
     margin:0px auto;
     width: 200px;
@@ -63,7 +63,7 @@ margin-bottom: 40px;
 }
 
 .tituloPrincipal{
-    background-color:#E2DCC8;
+    background-color:#dfb839;
 }
 
 .imagen{
