@@ -7,7 +7,6 @@
 
     <link type="text/css" rel="stylesheet" href="assets/jquery-ui-1.11.4.custom/jquery-ui.min.css"/>
     <link type="text/css" rel="stylesheet" href="assets/DataTables-1.10.7/css/jquery.dataTables.css"/>
-
     <script type="text/javascript" src="assets/jquery-1.11.2/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="assets/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
     <script type="text/javascript" src="assets/DataTables-1.10.7/js/jquery.dataTables.min.js"></script>
@@ -16,13 +15,13 @@
 </head>
 
 <body>
+
+
     <header>
         <?php include(app_path()."/../resources/views/template/header.php");?>                   
     </header>
 
-    <div class="tituloPrincipal">
-        <h4>INVENTARIO</h4>
-    </div>
+    
 
 <style>
     select.tc_select {
@@ -48,14 +47,17 @@
 
 </style>
 
+
+
+
 <div class="refine-datatable">
     <div class="container-square" style="margin:20px;border: 20px;">
         <div class="refine-group">
             <div style="display:flex">
-                <label class="tc_select" >Super Rubro</label><select class="tc_select" id="superrubro_filter"></select><br>
-                <label class="tc_select" >Almacen</label><select  class="tc_select" id="almacen_filter"></select>
-                <label class="tc_select" >Rubro</label><select  class="tc_select" id="rubro_filter"></select>
-                <label class="tc_select" >Marca</label><select  class="tc_select" id="marca_filter"></select>
+                <label class="tc_select"></label><select class="tc_select" id="superrubro_filter"></select><br>
+                <label class="tc_select"></label><select  class="tc_select" id="almacen_filter"></select>
+                <label class="tc_select"></label><select  class="tc_select" id="rubro_filter"></select>
+                <label class="tc_select"></label><select  class="tc_select" id="marca_filter"></select>
             </div>
         </div>    
     </div>

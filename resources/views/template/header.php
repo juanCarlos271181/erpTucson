@@ -1,7 +1,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
             <div class="container">
                 <div class="logo" id="logoTucson">
-                    <img src="./img/logoBlue.png" alt="" style="width: 55%;">
+                    <img src="./img/logoBlue.png" alt="" style="width: 30%;">
                 </div>
                 <a class="navbar-brand" href="#!">SYSTEM TUCSON</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

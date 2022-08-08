@@ -17,7 +17,8 @@
 
   <section class="vh-100" id="">
     <div class="container-fluid h-custom">
-      <div class="row d-flex justify-content-center align-items-center h-100">
+      <br><br>
+      <div class="row d-flex justify-content-center h-100">
     
         <div class="col-md-9 col-lg-6 col-xl-5"id="imagenForm" class="form-control form-control-lg">
           <img src="./img/ceramicos/home_oficce2.jpeg"width="60%" class="img-fluid" alt="Sample image">
@@ -71,14 +72,14 @@
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
-              <button type="button" id="user_register" class="btn btn-dark btn-lg"
+              <button type="submit" name="register" class="btn btn-dark btn-lg"
                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar al Sistema</button>
             </div>
-          </div>
+        </form>
         </div>
       </div>
     </div>
-  </section>
+
 
     <footer class="py-5 bg-dark">
       <?php include(app_path()."/../resources/views/template/footer.php");?>    

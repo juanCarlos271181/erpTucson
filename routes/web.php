@@ -74,7 +74,6 @@ use Illuminate\Support\Facades\Route;
         return view('griferia');
     });
 
-    Route::get('/ceramicos', function () {
-        if(!isLogged())    return view('index');
-        return view('ceramicos');
-    });
+Route::get('/ceramicos', function () {
+    return view('ceramicos');
+});
