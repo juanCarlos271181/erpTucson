@@ -3,11 +3,16 @@
 
 <head>
   <?php include(app_path()."/../resources/views/template/head.php");?>
+  <script type="text/javascript" src="assets/jquery-1.11.2/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="assets/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
 </head>
 
 <body>
   <header>
-    <?php include(app_path()."/../resources/views/template/header.php");?>
+    <?php
+    include(app_path()."/../resources/views/template/header.php");
+    ?>
   </header>
 <br>
 
@@ -24,18 +29,18 @@
         <div>
         
             <div class="form-outline mb-4">
-              <input type="text" id="form3Example3" class="form-control form-control-lg"
+              <input type="text" id="username" class="form-control form-control-lg"
                 placeholder="Usuario" />
-              <label class="form-label" for="form3Example3"></label>
+              <label class="form-label" for="username"></label>
              </div>
              
 
 
             <div class="form-outline mb-3">
-              <input type="password" id="form3Example4" class="form-control form-control-lg"
+              <input type="password" id="password" class="form-control form-control-lg"
                 placeholder="Contraseña" />
 
-              <label class="form-label" for="form3Example4"></label>
+              <label class="form-label" for="password"></label>
             </div>
 
             <div class="d-flex justify-content-between align-items-center">
@@ -50,8 +55,7 @@
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
-              <button type="button" name="register" class="btn btn-dark btn-lg"
-                onclick="window.location='./menu_principal'"
+              <button type="button" id="login" class="btn btn-dark btn-lg"                
                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar al Sistema</button>
             </div>
 </div>
@@ -61,7 +65,7 @@
     <br>
     
     <footer class="py-5 bg-dark">
-    <?php include(app_path()."/../resources/views/template/footer.php");?>
+      <?php include(app_path()."/../resources/views/template/footer.php");?>
     </footer>  
 
       </div>

@@ -10,7 +10,10 @@
 <body>
 
 <header>
-    <?php include(app_path()."/../resources/views/template/header.php");?>
+    <?php
+    $NO_LOGIN=true; 
+    include(app_path()."/../resources/views/template/header.php");
+    ?>
 </header>
     
 <div class="m-0 text-center">

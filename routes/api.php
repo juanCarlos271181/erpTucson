@@ -3,7 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InventarioController;
-use App\Http\Controllers\AlmacenController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\ProductoController;
 
 /*
@@ -21,8 +22,16 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::controller(LoginController::class)->group(function(){
+    Route::post('/login', 'login');
+});
+
+Route::controller(UsuarioController::class)->group(function(){
+    Route::post('/usuario/registro', 'store');
+    Route::get('/usuario/login', 'login');
+});
+
 Route::controller(InventarioController::class)->group(function(){
-    Route::get('/inventario', 'index');
     Route::get('/inventario/byAlmacen', 'byAlmacen');
 });
 
