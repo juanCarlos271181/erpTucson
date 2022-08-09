@@ -11,9 +11,7 @@
       <?php include(app_path()."/../resources/views/template/header.php");?> 
        
      </header>
-     <div class="tituloPrincipal">
-       <h4>PERFIL DE USUARIOS</h4>
-    </div>
+     
 <br><br>
      
      <table class=" table table-striped table-hover">

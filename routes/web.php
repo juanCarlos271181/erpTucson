@@ -65,3 +65,8 @@ Route::get('/ceramicos', function () {
 Route::get('/prueba', function () {
     return view('prueba');
 });
+
+Route::get('/registro_ventas', function () {
+    return view('registro_ventas');
+});
+

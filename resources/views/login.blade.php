@@ -56,7 +56,7 @@
             <div class="text-center text-lg-start mt-4 pt-2">
               <button type="button" name="register" class="btn btn-dark btn-lg"
                 onclick="window.location='./menu_principal'"
-                style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar al Sistema</button>
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar</button>
             </div>
     </div>
         </div>

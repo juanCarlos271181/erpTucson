@@ -47,6 +47,7 @@
 }
 
 
+
 .img-registro{
 height: 250%;
 margin: 0 40px 30px;
@@ -105,3 +106,11 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+.datos_cliente{
+    
+    flex-direction:column;
+    
+}
+
+
