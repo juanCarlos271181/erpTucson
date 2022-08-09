@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,53 +14,69 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+    function isLogged($show=0){
+        return LoginController::isLogged($show);
+    }
+
+    Route::get('/', function () {
+        if(!isLogged())    return view('index');
+        return view('index');
+    });
 
 
-Route::get('/login', function () {
-    return view('login');
-});
+    Route::get('/login', function () {
+        //if(!isLogged())    return view('index');
+        return view('login');
+    });
 
-Route::get('/inventario', function () {
-    return view('inventario');
-});
+    Route::get('/inventario', function () {
+        if(!isLogged())    return view('index');
+        return view('inventario');
+    });
 
-Route::get('/marmoleria', function () {
-    return view('marmoleria');
-});
+    Route::get('/marmoleria', function () {
+        if(!isLogged())    return view('index');
+        return view('marmoleria');
+    });
 
-Route::get('/menu_principal', function () {
-    return view('menu_principal');
-});
+    Route::get('/menu_principal', function () {
+        if(!isLogged())    return view('index');
+        return view('menu_principal');
+    });
 
-Route::get('/menu', function () {
-    return view('menu');
-});
+    Route::get('/menu', function () {
+        if(!isLogged())    return view('index');
+        return view('menu');
+    });
 
-Route::get('/pegamentos', function () {
-    return view('pegamentos');
-});
+    Route::get('/pegamentos', function () {
+        if(!isLogged())    return view('index');
+        return view('pegamentos');
+    });
 
-Route::get('/perfil_usuario', function () {
-    return view('perfil_usuario');
-});
+    Route::get('/perfil_usuario', function () {
+        if(!isLogged())    return view('index');
+        return view('perfil_usuario');
+    });
 
-Route::get('/prueba_validacion', function () {
-    return view('prueba_validacion');
-});
+    Route::get('/prueba_validacion', function () {
+        if(!isLogged())    return view('index');
+        return view('prueba_validacion');
+    });
 
-Route::get('/registro_usuario', function () {
-    return view('registro_usuario');
-});
+    Route::get('/registro_usuario', function () {
+        if(!isLogged())    return view('index');
+        return view('registro_usuario');
+    });
 
-Route::get('/griferia', function () {
-    return view('griferia');
-});
+    Route::get('/griferia', function () {
+        if(!isLogged())    return view('index');
+        return view('griferia');
+    });
 
 Route::get('/ceramicos', function () {
     return view('ceramicos');
+
 });
 
 Route::get('/prueba', function () {
@@ -69,4 +86,7 @@ Route::get('/prueba', function () {
 Route::get('/registro_ventas', function () {
     return view('registro_ventas');
 });
+
+
+
 

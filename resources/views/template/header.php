@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
             <div class="container">
                 <div class="logo" id="logoTucson">
                     <img src="./img/logoBlue.png" alt="" style="width: 30%;">
@@ -13,7 +13,13 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="./">Home</a>
                         </li>
+                        <?php if(!isset($_SESSION["user"])){ ?>
                           <li class="nav-item"><a class="nav-link" href="./login">Login</a></li>
+                        <?php }else{ ?>
+                            <li class="nav-item"> <img src="./img/usuario2.jpg" width="30px" ></li>
+                            <li class="nav-link"> <?= $_SESSION["user"]["nombre"] ?></li>
+                        <?php }?>
+
                         <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="./menu_principal">Menu</a>
                             
