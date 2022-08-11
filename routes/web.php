@@ -19,12 +19,12 @@ use Illuminate\Support\Facades\Route;
     }
 
     Route::get('/', function () {
+        if(isLogged()) return view('index');
         return view('index');
     });
 
-
     Route::get('/login', function () {
-        //if(!isLogged())    return redirect('/');
+        if(isLogged())    return redirect('/');
         return view('login');
     });
 
