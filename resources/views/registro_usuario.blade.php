@@ -73,7 +73,7 @@
 
             <div class="text-center text-lg-start mt-4 pt-2">
               <button type="submit" name="register" class="btn btn-dark btn-lg"
-                style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar al Sistema</button>
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar</button>
             </div>
         </form>
         </div>
