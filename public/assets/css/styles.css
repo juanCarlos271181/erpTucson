@@ -105,3 +105,7 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+.table-primary {
+    background-color: blue;
+}

@@ -9,6 +9,12 @@
         <script type="text/javascript" src="assets/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/login.js"></script>
         <link rel="stylesheet" href=https://fonts.google.com/share?selection.family=Roboto%20Mono:wght@100">
+
+        <style>
+              .table-primary {
+                     background-color:cadetblue;
+              }
+              </style>
         <title>ERP</title>
         
         
