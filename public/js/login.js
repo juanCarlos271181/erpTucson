@@ -22,9 +22,10 @@ function login(){
             window.location="./menu_principal";
         })
         .fail(function (request, error) {
+            
             if(request.status==201){
                 window.location="./menu_principal";
-            }else{
+            }else{ 
                 alert(request.responseText);
             }
 
