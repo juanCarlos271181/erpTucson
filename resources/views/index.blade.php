@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        
-    <?php include(app_path()."/../resources/views/template/head.php");?>
-
-    
+    <head>        
+        <?php include(app_path()."/../resources/views/template/head.php");?>
     </head>
-   
 <body>
 
 <header>
-    <?php
-    $NO_LOGIN=true; 
-    include(app_path()."/../resources/views/template/header.php");
-    ?>
+    <?php include(app_path()."/../resources/views/template/header.php");?>
 </header>
     
 <div class="m-0 text-center">

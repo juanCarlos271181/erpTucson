@@ -13,11 +13,14 @@ class LoginController extends Controller
 {
 
     public static function logout(){
-        if(session_id() != ""){
-            session_unset();
-            session_destroy();
+
+        $sessionKey = session_id();
+        if($sessionKey == ""){
             session_start();
         }
+        session_unset();
+        session_destroy();
+        
     }
 
     public static function isLogged($show=0){
@@ -40,18 +43,20 @@ class LoginController extends Controller
             $username = $_SESSION["user"]["username"]; 
             $sessionKey = session_id();
             $sessionLastPing = isset($_SESSION["session_last_ping"])?$_SESSION["session_last_ping"]:$now;
+            $sessionLastPing = $now-$sessionLastPing;
+            $_SESSION["session_last_ping"]=$now;    
         }
 
-        $data=["sessionKey"=>$sessionKey, "username"=>$username, "sessionTime"=>$now-$sessionLastPing, "route"=>$route];
+        $data=["isLogin"=>isset($_SESSION["user"]),"sessionKey"=>$sessionKey, "username"=>$username, "sessionTime"=>$sessionLastPing, "route"=>$route];
         if($show){
-            echo "<pre>";
-            var_dump($data);
-            echo "</pre>";
+            //echo "<pre>";
+            //var_dump(json_encode($data));
+            //echo "</pre>";
+            echo json_encode($data);
         }
-        $_SESSION["session_last_ping"]=$now;    
 
 
-        $isLogged = (($now-$sessionLastPing)<100) && ($username!="");
+        $isLogged = (($sessionLastPing)<100) && ($username!="");
         
         if(!$isLogged){
             self::logout();
@@ -97,9 +102,15 @@ class LoginController extends Controller
                 "idusuario"=>$u["idusuario"],
                 "username"=>$u["username"],
                 "nombre"=>$u["tx_nombre"],
+                "rol"=>$u["idrol"],
                 "session_start_datetime"=>$date->getTimestamp()
             );
-            return ["status"=>200, "text"=>"user logged", "data"=>$_SESSION["user"]];    
-        }  
+            return (new Response("usuario logeado", 201))
+            ->header('Content-Type', "application/json");
+       }
+       return (new Response("usuario/password NO encontrado", 404))
+       ->header('Content-Type', "application/json");
+
     }
+    
 }

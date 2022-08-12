@@ -105,6 +105,7 @@ height: 100%;
 }
 }
 
+<<<<<<< HEAD
 .datos_cliente{
     
     flex-direction:column;
@@ -112,3 +113,8 @@ height: 100%;
 }
 
 
+=======
+.table-primary {
+    background-color: blue;
+}
+>>>>>>> 4c7c7a34d6578dc3ebf253ecb9245300318e9b6d

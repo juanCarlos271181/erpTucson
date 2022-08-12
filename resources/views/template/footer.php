@@ -2,6 +2,6 @@
             <!--<img src="./img/logo-2.png" alt="">-->
             
             <div class="container">
-            <img src="./img/logo-2.png" class="card-img-top" alt="...">
+            <img src="./img/logo-2.png" class="card-img-top"style="width: 20%" alt="...">
                 <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
             </div>

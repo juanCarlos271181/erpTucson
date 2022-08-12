@@ -3,9 +3,6 @@
 
 <head>
   <?php include(app_path()."/../resources/views/template/head.php");?>
-  <script type="text/javascript" src="assets/jquery-1.11.2/jquery-1.11.2.min.js"></script>
-  <script type="text/javascript" src="assets/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="js/login.js"></script>
 </head>
 
 <body>
@@ -49,12 +46,7 @@
 
             <div class="d-flex justify-content-between align-items-center">
 
-              <div class="form-check mb-0">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-                <label class="form-check-label" for="form2Example3">
-                Recordar
-                </label>
-              </div>
+              
               <a href="./registro_usuario" class="text-body">Registrarme</a>
             </div>
 
