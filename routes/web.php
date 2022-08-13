@@ -52,7 +52,7 @@ use Illuminate\Support\Facades\Route;
         if(!isLogged())    return redirect('/');
         return view('marmoleria');
     });
-
+ 
     Route::get('/menu_principal', function () {
         if(!isLogged()) return redirect('/'); 
         return view('menu_principal');
