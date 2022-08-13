@@ -87,7 +87,7 @@
         
         </div> 
 
-        <div class="contenedorMenu col-10" style="background-color:blue">
+        <div id="content1" class="contenedorMenu col-10">
             &nbsp;
         </div>
     </div>
