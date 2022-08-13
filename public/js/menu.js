@@ -20,4 +20,4 @@ function go(uri){
                 alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
             }
     });
-}
+} 
