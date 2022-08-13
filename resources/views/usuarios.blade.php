@@ -10,7 +10,7 @@
     <script type="text/javascript" src="assets/jquery-1.11.2/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="assets/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
     <script type="text/javascript" src="assets/DataTables-1.10.7/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="js/usuario.js"></script>
+    <script type="text/javascript" src="js/usuarios.js"></script>
   
 </head>
 
@@ -54,28 +54,21 @@
     <div class="container-square" style="margin:20px;border: 20px;">
         <div class="refine-group">
             <div style="display:flex">
-                <label class="tc_select"></label><select class="tc_select" id="superrubro_filter"></select><br>
-                <label class="tc_select"></label><select  class="tc_select" id="almacen_filter"></select>
-                <label class="tc_select"></label><select  class="tc_select" id="rubro_filter"></select>
-                <label class="tc_select"></label><select  class="tc_select" id="marca_filter"></select>
+                <label class="tc_select"></label><select  class="tc_select" id="rol_filter"></select>
             </div>
         </div>    
     </div>
-    <table id="inventario_table">
+    <table id="usuarios_table">
     <thead>
         <tr class="table-primary">
-            <th>Código </th>
-            <th>Artículo</th>
-            <th>idMarca</th>
-            <th>Marca</th>
-            <th>idSuper Rubro</th>
-            <th>Super Rubro</th>
-            <th>idRubro</th>
-            <th>Rubro</th>
-            <th>Lote</th>
-            <th>Stock Total</th>
-            <th>Cantidad</th>
-            <th>Almacen</th>
+            <th>Username </th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>DNI</th>
+            <th>Telefono</th>
+            <th>Email</th>
+            <th>Rol</th>
+            <th>Accion</th>
         </tr>
     </thead>
     <tbody>

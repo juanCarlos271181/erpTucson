@@ -33,6 +33,11 @@ use Illuminate\Support\Facades\Route;
         return view('inventario');
     });
 
+    Route::get('/usuarios', function () {
+        if(!isLogged())    return redirect('/');
+        return view('usuarios');
+    });
+
     Route::get('/marmoleria', function () {
         if(!isLogged())    return redirect('/');
         return view('marmoleria');

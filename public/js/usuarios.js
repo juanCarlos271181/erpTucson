@@ -19,7 +19,7 @@ $(document).ready(function () {
         "bServerSide": true,
         "bAutoWidth": false,
         "bPaginate": true,
-        "sAjaxSource": "api/usuarios/datatable",
+        "sAjaxSource": "api/usuario/datatable",
         "oLanguage":
             {
                 "sZeroRecords": "There are no results for this search.",
@@ -28,10 +28,7 @@ $(document).ready(function () {
                 "sLengthMenu": "Show <select><option value='10'>10</option><option value='15'>15</option><option value='20'>20</option><option value='25'>25</option><option value='50'>50</option><option value='100'>100</option></select>"
             },
         "fnServerParams": function(aoData){
-            aoData.push({'name': 'idalmacen',   'value'     : $("#almacen_filter").val()});
-            aoData.push({'name': 'idmarca',     'value'     : $("#marca_filter").val()});
-            aoData.push({'name': 'idrubro',     'value'     : $("#rubro_filter").val()});
-            aoData.push({'name': 'idsuperrubro','value'     : $("#superrubro_filter").val()});
+            aoData.push({'name': 'idrol',   'value'     : $("#rol_filter").val()});
         },
         "columnDefs": [
         {
@@ -40,18 +37,14 @@ $(document).ready(function () {
         ],
         "aaSorting": [[0, "asc"]],
         "aoColumns": [
-            {"bSortable": true},    //codigo
-            {"bSortable": false},   //articulo
-            {"bVisible": false},   //idmarca
-            {"bSortable": true},   //marca
-            {"bVisible": false},   //idsuper rubro
-            {"bSortable": true},   //super rubro
-            {"bVisible": false},   //idrubro
-            {"bSortable": true},   //rubro
-            {"bSortable": false},   //lote
-            {"bSortable": false},   //total
-            {"bSortable": true},    //cantidad
-            {"bSortable": true}    //almacen
+            {"bSortable": true},    //username
+            {"bSortable": false},   //nombres
+            {"bVisible": true},   //apellidos
+            {"bSortable": true},   //dni
+            {"bVisible": true},   //telefonos
+            {"bSortable": true},   //email
+            {"bVisible": true},   //rol
+            {"bSortable": true},   //accion
         ],
         "fnRowCallback": function (nRow, aData, iDisplayIndex) {
             var tds = $(nRow).children();
@@ -64,10 +57,10 @@ $(document).ready(function () {
             let f = oSettings.json.filters;
             let p = oSettings.json.params;
             let id = '#';
-            fillDropBox(id + 'superrubro_filter', f.superrubro, p.idsuperrubro, "Super Rubros");
-            fillDropBox(id + 'rubro_filter', f.rubro, p.idrubro, "Rubros");
-            fillDropBox(id + 'marca_filter', f.marca, p.idmarca, "Marcas");
-            fillDropBox(id + 'almacen_filter', f.almacen, p.idalmacen, "Almacenes");
+//            fillDropBox(id + 'superrubro_filter', f.superrubro, p.idsuperrubro, "Super Rubros");
+//            fillDropBox(id + 'rubro_filter', f.rubro, p.idrubro, "Rubros");
+//            fillDropBox(id + 'marca_filter', f.marca, p.idmarca, "Marcas");
+            fillDropBox(id + 'rol_filter', f.rol, p.idrol, "Roles");
            
         }
         },

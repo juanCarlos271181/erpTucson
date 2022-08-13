@@ -20,12 +20,12 @@ class UsuariosAjax{
     public static function datatable(){
 
         $aColumns = array(
-            'nombre',
-            'apellido',
-            'email',
-            'telefono',
-            'rol',
-            'accion'
+            'tx_nombre',
+            'tx_apellido',
+            'tx_email_usuario',
+            'tx_telefono',
+            'idrol',
+            'idusuario'
         );
 
         $sLimit="";
@@ -56,22 +56,22 @@ class UsuariosAjax{
             "iTotalRecords" => "" . 0,
             "iTotalDisplayRecords" => "" . 0,
             "aaData" => array(),
-            "filters" => array("marca"=>array(),"rol"=>array()),
+            "filters" => array("rol"=>array()),
             "params" => array(
-                "idrol" => isset($_GET["idll"]) ? $_GET["idrol"] : NULL
+                "idrol" => isset($_GET["idrol"]) ? $_GET["idrol"] : NULL
             )
         );
 
         $query="
             SELECT 
-                idusuario,
                 username,
                 tx_nombre,
                 tx_apellido,
                 dni,
+                '' tx_telefono,
                 tx_email_usuario,
                 idrol,
-                idfoto_usuario
+                idusuario
               FROM usuario        
             WHERE 1=1 ";
         $sSearch = isset($_GET["sSearch"]) ? trim($_GET["sSearch"]) : NULL;
