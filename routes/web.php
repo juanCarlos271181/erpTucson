@@ -28,7 +28,11 @@ use Illuminate\Support\Facades\Route;
         return view('login');
     });
 
-    Route::get('/inventario', function () {
+    Route::get('/inventario/dashboard', function () {
+        if(!isLogged())    return redirect('/');
+        return view('dashboard_inventario');
+    });
+    Route::get('/inventario_listado', function () {
         if(!isLogged())    return redirect('/');
         return view('inventario');
     });

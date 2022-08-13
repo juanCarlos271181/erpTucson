@@ -3,6 +3,10 @@ $(document).ready(function () {
     $("#card_usuario").click(function () {
         go("usuario/dashboard");
     });
+    $("#card_inventario").click(function () {
+        go("inventario/dashboard");
+    });
+
 });
 
 function go(uri){

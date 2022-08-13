@@ -8,10 +8,10 @@
             <?php include(app_path()."/../resources/views/template/header.php");?>       
         </header>
     <br>
-    <div class="row" style="heightx:400px">
+    <!--div class="row" style="heightx:400px"-->
 
-    <div class="row" style="overflow:scroll; height:500px">
-        <div class="contenedorMenuX col-2" style="overflow:scroll">
+    <div class="contenedorMenu" style=" height:500px">
+        <div class="contenedorMenuZ col-2" style="overflow:auto">
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:1px">
                     <a href="#" class="button">
@@ -33,9 +33,9 @@
                 </div>
             </div>
         
-            <div class="col-12">
+            <div class="col-12" id="card_inventario">
                 <div class="card" style="width:10rem; padding:10px">
-                    <a href="./inventario" class="button">
+                    <a href="#" class="button">
                         <img src=" ./img/inventario.webp" class="card-img-top imagen20" alt="imagen de tarjeta">
                     </a>
                     <div class="card-body">
@@ -90,7 +90,7 @@
         <div id="content1" class="contenedorMenu col-10">
             &nbsp;
         </div>
-    </div>
+    <!--/div-->
     </div>    
     <footer class="py-5 bg-dark">
         <?php include(app_path()."/../resources/views/template/footer.php");?>
