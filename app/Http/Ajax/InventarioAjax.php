@@ -34,6 +34,7 @@ class InventarioAjax{
             'nombre'
         );
 
+        $sLimit="";
         if (isset($_GET['iDisplayStart']) && $_GET['iDisplayLength'] != '-1') {
             $sLimit = "LIMIT " . self::mres( $_GET['iDisplayStart']) . ", " . self::mres( $_GET['iDisplayLength']);
         }

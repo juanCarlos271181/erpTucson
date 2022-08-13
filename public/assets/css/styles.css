@@ -105,16 +105,12 @@ height: 100%;
 }
 }
 
-<<<<<<< HEAD
 .datos_cliente{
     
     flex-direction:column;
     
 }
 
-
-=======
-.table-primary {
-    background-color: blue;
-}
->>>>>>> 4c7c7a34d6578dc3ebf253ecb9245300318e9b6d
+.imagen20 {
+    width:80px;
+} 

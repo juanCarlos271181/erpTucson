@@ -33,6 +33,21 @@ use Illuminate\Support\Facades\Route;
         return view('inventario');
     });
 
+
+    Route::get('/usuario/dashboard', function () {
+        if(!isLogged())    return redirect('/');
+        return view('dashboard_usuarios');
+    });
+    Route::get('/usuario_listado', function () {
+        if(!isLogged())    return redirect('/');
+        return view('usuarios');
+    });
+    Route::get('/usuario_registro', function () {
+        if(!isLogged())    return redirect('/');
+        return view('registro_usuario');
+    });
+
+
     Route::get('/marmoleria', function () {
         if(!isLogged())    return redirect('/');
         return view('marmoleria');
@@ -53,10 +68,6 @@ use Illuminate\Support\Facades\Route;
         return view('pegamentos');
     });
 
-    Route::get('/perfil_usuario', function () {
-        if(!isLogged())    return redirect('/');
-        return view('perfil_usuario');
-    });
 
     Route::get('/prueba_validacion', function () {
         if(!isLogged())    return redirect('/');
