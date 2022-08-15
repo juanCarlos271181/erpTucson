@@ -47,9 +47,12 @@ $(document).ready(function () {
             {"bSortable": true},   //accion
         ],
         "fnRowCallback": function (nRow, aData, iDisplayIndex) {
-            var tds = $(nRow).children();
-            //var delete_details="<a href=\"javascript:deleteAssignedCommunicationsSettings("+aData[0]+");\" class=\"glyphicons glyphicons-circle-remove red\"></a>";
-            //$(tds[5]).html(delete_details);
+            let  tds = $(nRow).children();
+            let delete_details="";
+             delete_details+="<a href=\"javascript:deleteAssignedCommunicationsSettings("+aData[0]+");\"><img class=\"imagen\" src=\"./img/eye.png\" style=\"height: 30px;width:30px\"></a>";
+             delete_details+="<a href=\"javascript:deleteAssignedCommunicationsSettings("+aData[0]+");\"><img class=\"imagen\" src=\"./img/lapiz.png\" style=\"height: 30px;width:30px\"></a>";
+             delete_details+="<a href=\"javascript:deleteAssignedCommunicationsSettings("+aData[0]+");\"><img class=\"imagen\" src=\"./img/papelera3.png\" style=\"height: 30px;width:30px\"></a>";
+            $(tds[7]).html(delete_details);
             return nRow;
         },
         "fnDrawCallback": function (oSettings) {

@@ -1,10 +1,10 @@
 
 $(document).ready(function () {
     $("#card_usuario").click(function () {
-        go("usuario/dashboard");
+        go("dashboard/usuario");
     });
     $("#card_inventario").click(function () {
-        go("inventario/dashboard");
+        go("dashboard/inventario");
     });
 
 });

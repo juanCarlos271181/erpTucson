@@ -53,7 +53,10 @@
 <div class="refine-datatable">
     <div class="container-square" style="margin:20px;border: 20px;">
         <div class="refine-group">
-            <div style="display:flex">
+            <div style="display:inline">
+                <img src="./img/usuario.50.png" >
+            </div>
+            <div style="display:inline">
                 <label class="tc_select"></label><select  class="tc_select" id="rol_filter"></select>
             </div>
         </div>    

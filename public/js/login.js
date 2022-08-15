@@ -43,7 +43,7 @@ function logout(){
             dataType: "json"
         })
         .always(function() { 
-            window.location="./";
+            window.location=path;
         });
 }
 

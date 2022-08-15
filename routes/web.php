@@ -28,9 +28,9 @@ use Illuminate\Support\Facades\Route;
         return view('login');
     });
 
-    Route::get('/inventario/dashboard', function () {
+    Route::get('/dashboard/inventario', function () {
         if(!isLogged())    return redirect('/');
-        return view('dashboard_inventario');
+        return view('/dashboard/inventario_dashboard');
     });
     Route::get('/inventario_listado', function () {
         if(!isLogged())    return redirect('/');
@@ -38,9 +38,9 @@ use Illuminate\Support\Facades\Route;
     });
 
 
-    Route::get('/usuario/dashboard', function () {
+    Route::get('/dashboard/usuario', function () {
         if(!isLogged())    return redirect('/');
-        return view('dashboard_usuarios');
+        return view('dashboard/usuarios_dashboard');
     });
     Route::get('/usuario_listado', function () {
         if(!isLogged())    return redirect('/');

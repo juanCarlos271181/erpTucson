@@ -114,3 +114,9 @@ height: 100%;
 .imagen20 {
     width:80px;
 } 
+
+.subcard {
+    width:150px;
+    height:150px;
+    padding:10px
+}
