@@ -87,6 +87,37 @@
 </footer>  
  
 
+
+<div id="usuario_edit_popup" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+        <?php 
+$demo="Ciencia ficción perdida en el espacio"; //ISO-8859-1 String àéí
+echo "UTF-8 Encoded String: ";
+echo utf8_decode($demo) ."<br>";
+echo "UTF-8 Decoded String: ";
+echo utf8_encode(utf8_decode($demo)) ."<br>";
+echo "UTF-8 Encoded String from the decoded: ";
+echo utf8_decode(utf8_encode(utf8_decode($demo))) ."<br>";
+?>  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 </body>
 
 
