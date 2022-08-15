@@ -52,12 +52,22 @@ $(document).ready(function () {
             {"bSortable": false},   //lote
             {"bSortable": false},   //total
             {"bSortable": true},    //cantidad
-            {"bSortable": true}    //almacen
+            {"bSortable": true},    //almacen
+            {"bSortable": false}   //qr
         ],
         "fnRowCallback": function (nRow, aData, iDisplayIndex) {
             var tds = $(nRow).children();
             //var delete_details="<a href=\"javascript:deleteAssignedCommunicationsSettings("+aData[0]+");\" class=\"glyphicons glyphicons-circle-remove red\"></a>";
             //$(tds[5]).html(delete_details);
+            
+            new QRCode(tds[9], {
+                text: aData[0]+"...no seas chismoso!!!",
+                width: 50,
+                height: 50,
+                colorDark : "#000000",
+                colorLight : "#ffffff",
+                correctLevel : QRCode.CorrectLevel.H
+            });
             return nRow;
         },
         "fnDrawCallback": function (oSettings) {

@@ -42,13 +42,14 @@
             <th>Stock Total</th>
             <th>Cantidad</th>
             <th>Almacen</th>
+            <th>QR</th>
         </tr>
     </thead>
     <tbody>
 
     </tbody>
     </table>
-
+    <div id="qrcode"></div>
 </div>
 
 
