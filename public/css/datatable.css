@@ -15,3 +15,7 @@
     TR.even TD{
         font-size: 10px;
     }
+
+    .table-primary {
+        background-color:cadetblue;
+    }

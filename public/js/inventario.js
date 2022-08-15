@@ -22,11 +22,12 @@ $(document).ready(function () {
         "sAjaxSource": "api/inventario/byAlmacen",
         "oLanguage":
             {
-                "sZeroRecords": "There are no results for this search.",
-                "sInfo": "Showing _START_ to _END_ of _TOTAL_ entries ",
-                "sInfoFiltered": "found from _MAX_ records.",
-                "sLengthMenu": "Show <select><option value='10'>10</option><option value='15'>15</option><option value='20'>20</option><option value='25'>25</option><option value='50'>50</option><option value='100'>100</option></select>"
-            },
+                "sSearch": "Filtrar por",
+                "sZeroRecords": "There are no reminders to show ",
+                "sInfo": "Mostrando del _START_ al _END_ de _TOTAL_ registros",
+                "sInfoFiltered": "",
+                "sLengthMenu": "Mostrar <select><option value='10'>10</option><option value='25'>25</option><option value='50'>50</option><option value='100'>100</option></select> Registros"
+        },
         "fnServerParams": function(aoData){
             aoData.push({'name': 'idalmacen',   'value'     : $("#almacen_filter").val()});
             aoData.push({'name': 'idmarca',     'value'     : $("#marca_filter").val()});

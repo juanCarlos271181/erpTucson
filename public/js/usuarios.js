@@ -20,11 +20,14 @@ $(document).ready(function () {
         "bAutoWidth": false,
         "bPaginate": true,
         "sAjaxSource": "api/usuario/datatable",
+        "scrollY": 400,
         "oLanguage":
             {
+                "sSearch": "Buscar por:",
+                "searchPlaceholder": "username/Nombre/Apellido/Email",
                 "sZeroRecords": "There are no results for this search.",
                 "sInfo": "Showing _START_ to _END_ of _TOTAL_ entries ",
-                "sInfoFiltered": "found from _MAX_ records.",
+                "sInfoFiltered": "",
                 "sLengthMenu": "Show <select><option value='10'>10</option><option value='15'>15</option><option value='20'>20</option><option value='25'>25</option><option value='50'>50</option><option value='100'>100</option></select>"
             },
         "fnServerParams": function(aoData){
