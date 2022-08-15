@@ -6,4 +6,10 @@
                 <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
             </div>
 
+        <div style="display:none">    
+        <pre>
+        <?php var_dump($_SERVER); ?>
+        </pre>
+        </div>
+
 

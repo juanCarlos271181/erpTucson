@@ -14,7 +14,7 @@
         <title>ERP TUCSON</title>
        
         <script type="text/javascript">
-            var path =  '<?=$_SERVER["HTTP_REFERER"]?>';
+            var path =  '<?=$_SERVER["REQUEST_URI"]?>';
         </script> 
               
         <style>
