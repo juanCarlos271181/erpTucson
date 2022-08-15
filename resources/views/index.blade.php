@@ -5,14 +5,30 @@
     </head>
 <body>
 
+
+
+
 <header>
     <?php include(app_path()."/../resources/views/template/header.php");?>
 </header>
+
+
+
+
+
+        <div class=" d-flex col-md-9 col-lg-8 col-xl-8 h-100"id="imagenForm">
+          <img src="./img/logoTucsonBlue.jpg" class="img-fluid" alt="Sample image">
+        </div>
+
+
+
+
+
+
+
+
     
-<div class="m-0 text-center">
-    <img src="./img/controlInventarios.webp" class="img-fluid" alt="...">
-    
-</div>
+
 
 <footer class="py-5 bg-dark">
     <?php include(app_path()."/../resources/views/template/footer.php");?>

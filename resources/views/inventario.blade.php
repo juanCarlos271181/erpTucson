@@ -35,7 +35,7 @@
         font-size: small;
     }
     TR.odd TD{
-        background-color:azure;
+        background-color:#E7F6F2;
         font-size: small;
     }
     TR.even TD{
@@ -47,8 +47,42 @@
 
 </style>
 
+<div class="d-flex,aling-center contenedorInput">
+<div class="row">
+<div class="col-3">
+
+<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%">>
+ <option value='1'>Mi Profile</option>
+ <option value='2'>Logout</option>
+</select>
 
 
+</div>
+<div class="col-3">
+<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%">>
+ <option value='1'>Mi Profile</option>
+ <option value='2'>Logout</option>
+</select>
+
+</div>
+
+<div class="col-3">
+
+<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%">>
+ <option value='1'>Mi Profile</option>
+ <option value='2'>Logout</option>
+</select>
+
+</div>
+
+<div class="col-3">
+<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%">>
+ <option value='1'>Mi Profile</option>
+ <option value='2'>Logout</option>
+</select>
+
+
+</div>
 
 <div class="refine-datatable">
     <div class="container-square" style="margin:20px;border: 20px;">
@@ -63,7 +97,7 @@
     </div>
     <table id="inventario_table">
     <thead>
-        <tr class="table-primary">
+        <tr class="text-bg-primary p-3">
             <th>Código </th>
             <th>Artículo</th>
             <th>idMarca</th>

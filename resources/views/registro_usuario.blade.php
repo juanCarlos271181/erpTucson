@@ -10,24 +10,22 @@
   <header>
         <?php include(app_path()."/../resources/views/template/header.php");?>
   </header>
-  <div class="tituloPrincipal">
-    <h4>REGISTRO DE USUARIOS</h4>
-  </div>
+ 
 <br>
 
   <section class="vh-100" id="">
     <div class="container-fluid h-custom">
       <br><br>
-      <div class="row d-flex justify-content-center h-100">
+      <div class="row d-flex justify-content-center align-items-center">
     
-        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenForm" class="form-control form-control-lg">
-          <img src="./img/ceramicos/home_oficce2.jpeg"width="60%" class="img-fluid" alt="Sample image">
+        <div class="col-md-5 col-lg-5 col-xl-5"id="imagenForm" class="form-control form-control-lg">
+          <img src="./img/ceramicos/home_oficce2.jpeg" width="60%" class="img-fluid" alt="Sample image">
         </div>
         <br>
-        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <div class="row d-flex justify-content-center col-md-8 col-lg-6 col-xl-4 offset-xl-1">
 
-        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenForm">
-          <img src="./img/ceramicos/registroUsuario.png" class="img-fluid" alt="Sample image">
+        <div class=" d-flex justify-content-center col-md-9 col-lg-8 col-xl-6 "id="imagenForm">
+          <img src="./img/registro.png" class="img-fluid" alt="Sample image">
         </div>
 
         <div >
@@ -79,11 +77,14 @@
         </div>
       </div>
     </div>
+    </div>
 
+
+   
 
     <footer class="py-5 bg-dark">
-      <?php include(app_path()."/../resources/views/template/footer.php");?>    
-    </footer>
+      <?php include(app_path()."/../resources/views/template/footer.php");?>
+    </footer> 
 </body>
 
-</html>
+

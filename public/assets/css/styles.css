@@ -27,6 +27,13 @@
     background:#E2DCC8;
 }
 
+#imagenPrincipal{
+    background-image: url(./img/logoTucsonBlue.jpg);
+    max-width: 100%;
+};
+
+
+
 
 #titulo{
     margin:0px auto;
@@ -80,6 +87,10 @@ margin-bottom: 40px;
     width: 40px;
 }
 
+#imagenForm{
+background-image:url(https://www.facebook.com/tucsonpisosgriferias/photos/a.263396397009557/1948297465186100/);
+}
+
 
 
 .iconFooter{
@@ -105,7 +116,7 @@ height: 100%;
 }
 }
 
-<<<<<<< HEAD
+ HEAD
 .datos_cliente{
     
     flex-direction:column;
@@ -113,8 +124,14 @@ height: 100%;
 }
 
 
-=======
+
 .table-primary {
     background-color: blue;
 }
->>>>>>> 4c7c7a34d6578dc3ebf253ecb9245300318e9b6d
+
+.img-fluid{
+    max-width: 100%;
+    height:50%
+}
+
+ 
