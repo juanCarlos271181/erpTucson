@@ -13,14 +13,14 @@
         <?php include(app_path()."/../resources/views/template/header.php");?>                   
     </header>
     
-<<<<<<< HEAD
 
 
-<div class="d-flex,aling-center contenedorInput">
+<br>
+<div class="d-flex justify-content-around">
 <div class="row">
 <div class="col-3">
 
-<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%">>
+<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%"id="almacen_filter">
  <option value='1'>Mi Profile</option>
  <option value='2'>Logout</option>
 </select>
@@ -28,7 +28,7 @@
 
 </div>
 <div class="col-3">
-<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%">>
+<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%"id="superrubro_filter">
  <option value='1'>Mi Profile</option>
  <option value='2'>Logout</option>
 </select>
@@ -37,7 +37,7 @@
 
 <div class="col-3">
 
-<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%">>
+<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%"id="rubro_filter">
  <option value='1'>Mi Profile</option>
  <option value='2'>Logout</option>
 </select>
@@ -45,7 +45,7 @@
 </div>
 
 <div class="col-3">
-<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%">>
+<select class="form-select form-select-sm" aria-label=".form-select-sm example"style="width:60%"id="marca_filter">
  <option value='1'>Mi Profile</option>
  <option value='2'>Logout</option>
 </select>
@@ -59,13 +59,11 @@
     <div class="container-square" style="margin:20px;border: 20px;">
         <div class="refine-group">
         <div style="display:inline">
-                <img src="./img/inventario.50.png" >
-            </div>
-            <div style="display:inline">
-                <label class="tc_select"></label><select  class="tc_select" id="almacen_filter"></select>
-                <label class="tc_select"></label><select class="tc_select" id="superrubro_filter"></select>
-                <label class="tc_select"></label><select  class="tc_select" id="rubro_filter"></select>
-                <label class="tc_select"></label><select  class="tc_select" id="marca_filter"></select>
+              <br>
+                
+                
+                
+                
             </div>
         </div>    
     </div>
