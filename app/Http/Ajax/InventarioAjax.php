@@ -4,20 +4,9 @@ namespace App\Http\Ajax;
 
 use Illuminate\Support\Facades\DB;
 
-class InventarioAjax{
+class InventarioAjax extends AjaxBase{
 
-    public static function mres($value){
-        $search = array("\\",  "\x00", "\n",  "\r",  "'",  '"', "\x1a");
-        $replace = array("\\\\","\\0","\\n", "\\r", "\'", '\"', "\\Z");
-        return str_replace($search, $replace, $value);
-    }
-/*
-    foreach($almacenid $item){
-        $r = json_decode(json_encode($item), true);
-        $query.=" I".$r["idalmacen"].".cantidad AS "
-    }
-*/
-    public static function byAlmacen(){
+    public static function datatable(){
 
         $aColumns = array(
             'codigo',
@@ -34,30 +23,6 @@ class InventarioAjax{
             'nombre',
             'qrcode'
         );
-
-        $sLimit="";
-        if (isset($_GET['iDisplayStart']) && $_GET['iDisplayLength'] != '-1') {
-            $sLimit = "LIMIT " . self::mres( $_GET['iDisplayStart']) . ", " . self::mres( $_GET['iDisplayLength']);
-        }
-        
-        $sOrder = "";
-        if (isset($_GET['iSortCol_0'])) {
-            $sOrder = "ORDER BY  ";
-            for ($i = 0; $i < intval($_GET['iSortingCols']); $i++) {
-                if ($_GET['bSortable_' . intval($_GET['iSortCol_' . $i])] == "true") {
-                    if ($_GET['iSortCol_0'] != 8) {
-                        $sOrder .= "`" . $aColumns[intval($_GET['iSortCol_' . $i])] . "` " . self::mres( $_GET['sSortDir_' . $i]) . ", ";
-                    } else {
-                        $sOrder .= "`" . $aColumns[intval($_GET['iSortCol_' . $i])] . "` " . self::mres( $_GET['sSortDir_' . $i]) . ", ";
-                    }
-                }
-            }
-        
-            $sOrder = substr_replace($sOrder, "", -2);
-            if ($sOrder == "ORDER BY") {
-                $sOrder = "";
-            }
-        }
 
         $output = array(
             "iTotalRecords" => "" . 0,
@@ -122,7 +87,7 @@ class InventarioAjax{
             $query .= " AND R.idsuperrubro = ".$output["params"]["idsuperrubro"];
         }
 
-        $inventario = DB::select($query .= " " . $sOrder." " );
+        $inventario = DB::select($query .= " " . self::sort($aColumns)." " );
 
         $almances = DB::select("SELECT * FROM almacen ORDER BY idalmacen");
 
@@ -167,7 +132,7 @@ class InventarioAjax{
         $output["filters"]["almacen"] = array_values($output["filters"]["almacen"]);
 
 
-        $inventario = DB::select($query .= " ".$sLimit );
+        $inventario = DB::select($query .= " ".self::limit() );
         $data =array();
         foreach($inventario as $item){
             $data[] = array_values(json_decode(json_encode($item), true));

@@ -20,15 +20,15 @@ $(document).ready(function () {
         "bAutoWidth": false,
         "bPaginate": true,
         "sAjaxSource": "api/usuario/datatable",
-        "scrollY": 400,
+        "scrollY": 300,
         "oLanguage":
             {
                 "sSearch": "Buscar por:",
                 "searchPlaceholder": "username/Nombre/Apellido/Email",
                 "sZeroRecords": "There are no results for this search.",
-                "sInfo": "Showing _START_ to _END_ of _TOTAL_ entries ",
+                "sInfo": "Mostrando _START_ del _END_ al _TOTAL_ registros ",
                 "sInfoFiltered": "",
-                "sLengthMenu": "Show <select><option value='10'>10</option><option value='15'>15</option><option value='20'>20</option><option value='25'>25</option><option value='50'>50</option><option value='100'>100</option></select>"
+                "sLengthMenu": "Mostrar <select><option value='10'>10</option><option value='15'>15</option><option value='20'>20</option><option value='25'>25</option><option value='50'>50</option><option value='100'>100</option></select> Registros"
             },
         "fnServerParams": function(aoData){
             aoData.push({'name': 'idrol',   'value'     : $("#rol_filter").val()});
@@ -41,20 +41,21 @@ $(document).ready(function () {
         "aaSorting": [[0, "asc"]],
         "aoColumns": [
             {"bSortable": true},    //username
-            {"bSortable": false},   //nombres
-            {"bVisible": true},   //apellidos
+            {"bSortable": true},   //nombres
+            {"bSortable": true},   //apellidos
             {"bSortable": true},   //dni
-            {"bVisible": true},   //telefonos
+            {"bSortable": false},   //telefonos
             {"bSortable": true},   //email
-            {"bVisible": true},   //rol
-            {"bSortable": true},   //accion
+            {"bVisible": false},   //idrol
+            {"bSortable": true},   //rol
+            {"bSortable": false},   //accion
         ],
         "fnRowCallback": function (nRow, aData, iDisplayIndex) {
             let  tds = $(nRow).children();
             let delete_details="";
-             delete_details+="<a href=\"javascript:showUsuario("+aData[7]+");\"><img class=\"imagen\" src=\"./img/eye.png\" style=\"height: 30px;width:30px\"></a>";
-             delete_details+="<a href=\"javascript:editUsuario("+aData[7]+");\"><img class=\"imagen\" src=\"./img/lapiz.png\" style=\"height: 30px;width:30px\"></a>";
-             delete_details+="<a href=\"javascript:deleteUsuario("+aData[7]+");\"><img class=\"imagen\" src=\"./img/papelera3.png\" style=\"height: 30px;width:30px\"></a>";
+             delete_details+="<a href=\"javascript:showUsuario("+aData[8]+");\"><img class=\"imagen\" src=\"./img/eye.png\" style=\"height: 30px;width:30px\"></a>";
+             delete_details+="<a href=\"javascript:editUsuario("+aData[8]+");\"><img class=\"imagen\" src=\"./img/lapiz.png\" style=\"height: 30px;width:30px\"></a>";
+             delete_details+="<a href=\"javascript:deleteUsuario("+aData[8]+");\"><img class=\"imagen\" src=\"./img/papelera3.png\" style=\"height: 30px;width:30px\"></a>";
             $(tds[7]).html(delete_details);
             return nRow;
         },

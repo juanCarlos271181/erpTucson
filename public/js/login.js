@@ -58,7 +58,7 @@ $(document).ready(function () {
             logout();
         }
     });
-   
+   /*****
     setInterval(function(){
         $.ajax(
             {
@@ -78,6 +78,6 @@ $(document).ready(function () {
                  }
      
             });
-    },120*1000);
-
+    },12000*1000);
+    ****/
 });

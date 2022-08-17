@@ -4,19 +4,53 @@ namespace App\Http\Ajax;
 
 use Illuminate\Support\Facades\DB;
 
-class UsuariosAjax{
+class UsuariosAjax extends AjaxBase{
 
-    public static function mres($value){
-        $search = array("\\",  "\x00", "\n",  "\r",  "'",  '"', "\x1a");
-        $replace = array("\\\\","\\0","\\n", "\\r", "\'", '\"', "\\Z");
-        return str_replace($search, $replace, $value);
-    }
-/*
-    foreach($almacenid $item){
-        $r = json_decode(json_encode($item), true);
-        $query.=" I".$r["idalmacen"].".cantidad AS "
-    }
-*/
+    public static $TX_ROL = array(
+        1=>"ROOT",
+        2=>"ADMINISTRACION",
+        3=>"RRHH",
+        4=>"INVENTARIO"                        
+    );
+
+    public static function byId($idusuario){
+
+        $query="
+            SELECT 
+                username,
+                tx_nombre,
+                tx_apellido,
+                dni,
+                '' tx_telefono,
+                tx_email_usuario,
+                idrol,
+                idusuario
+              FROM usuario        
+            WHERE idusuario = ".$idusuario;
+
+        $usuarios = DB::select($query);
+        $usuarios = json_decode(json_encode($usuarios), true);
+
+        if(count($usuarios)>0){
+            if($usuarios[0]["idrol"]){
+                $usuarios[0]["txrol"]=self::$TX_ROL[$usuarios[0]["idrol"]]; 
+            }
+        }
+
+        $output = array();
+        $output["data"]  = $usuarios;
+        $output["roles"] = array();
+
+        foreach(self::$TX_ROL as $key=>$value){
+            $output["roles"][$key] = array("key"=>$key,"value"=> $value);
+        }
+
+        $output["roles"] = array_values($output["roles"]);
+
+        return  json_encode($output);
+
+    }    
+
     public static function datatable(){
 
         $aColumns = array(
@@ -25,32 +59,9 @@ class UsuariosAjax{
             'tx_email_usuario',
             'tx_telefono',
             'idrol',
+            'rol' ,
             'idusuario'
         );
-
-        $sLimit="";
-        if (isset($_GET['iDisplayStart']) && $_GET['iDisplayLength'] != '-1') {
-            $sLimit = "LIMIT " . self::mres( $_GET['iDisplayStart']) . ", " . self::mres( $_GET['iDisplayLength']);
-        }
-        
-        $sOrder = "";
-        if (isset($_GET['iSortCol_0'])) {
-            $sOrder = "ORDER BY  ";
-            for ($i = 0; $i < intval($_GET['iSortingCols']); $i++) {
-                if ($_GET['bSortable_' . intval($_GET['iSortCol_' . $i])] == "true") {
-                    if ($_GET['iSortCol_0'] != 8) {
-                        $sOrder .= "`" . $aColumns[intval($_GET['iSortCol_' . $i])] . "` " . self::mres( $_GET['sSortDir_' . $i]) . ", ";
-                    } else {
-                        $sOrder .= "`" . $aColumns[intval($_GET['iSortCol_' . $i])] . "` " . self::mres( $_GET['sSortDir_' . $i]) . ", ";
-                    }
-                }
-            }
-        
-            $sOrder = substr_replace($sOrder, "", -2);
-            if ($sOrder == "ORDER BY") {
-                $sOrder = "";
-            }
-        }
 
         $output = array(
             "iTotalRecords" => "" . 0,
@@ -71,6 +82,7 @@ class UsuariosAjax{
                 '' tx_telefono,
                 tx_email_usuario,
                 idrol,
+                idrol rol,
                 idusuario
               FROM usuario        
             WHERE 1=1 ";
@@ -90,7 +102,7 @@ class UsuariosAjax{
             $query .= " AND idusuario = ".$output["params"]["idusuario"];
         }
 
-        $usuarios = DB::select($query .= " " . $sOrder." " );
+        $usuarios = DB::select($query .= " " . self::sort($aColumns)." " );
 
         $iTotalRecords = count($usuarios);
 
@@ -98,33 +110,28 @@ class UsuariosAjax{
         $output["iTotalDisplayRecords"] = $iTotalRecords;
         $output["query"] = $query;
 
-        $data=array();
-
-        $TX_ROL = array(
-            1=>"ROOT",
-            2=>"ADMINISTRACION",
-            3=>"RRHH",
-            4=>"INVENTARIO"                        
-        );
 
         foreach($usuarios as $item){
             $r = json_decode(json_encode($item), true);
             $row = array_values($r);
-            $data[]=$row;
-            if(isset($output["params"]) && isset($output["params"]["idrol"]) && $output["params"]["idrol"]>-1){
+            
+            //if(isset($output["params"]) && isset($output["params"]["idrol"]) && $output["params"]["idrol"]>-1){
                 if(!array_key_exists($r["idrol"],$output["filters"]["rol"])){
-                    $output["filters"]["rol"][$r["idrol"]]=array("key"=>$r["idrol"],"value"=>$TX_ROL[$r["idrol"]]);
+                    $output["filters"]["rol"][$r["idrol"]]=array("key"=>$r["idrol"],"value"=>self::$TX_ROL[$r["idrol"]]);
                 }
-            }
+            //}
         }
 
         ksort($output["filters"]["rol"]);
         $output["filters"]["rol"] = array_values($output["filters"]["rol"]);
 
-        $usuarios = DB::select($query .= " ".$sLimit );
+        $usuarios = DB::select($query .= " ".self::limit() );
         $data =array();
         foreach($usuarios as $item){
-            $data[] = array_values(json_decode(json_encode($item), true));
+            $r = json_decode(json_encode($item), true);
+            $row = array_values($r);
+            $row["7"] = self::$TX_ROL[$r["idrol"]]  ;
+            $data[]=$row;
         }
 
         $output["aaData"] = $data;
