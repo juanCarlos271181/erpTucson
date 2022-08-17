@@ -62,7 +62,7 @@ class LoginController extends Controller
         }
 
 
-        $isLogged = (($sessionLastPing)<300) && ($username!="");
+        $isLogged = (($sessionLastPing)<3000) && ($username!="");
         
         if(!$isLogged){
             self::logout();
