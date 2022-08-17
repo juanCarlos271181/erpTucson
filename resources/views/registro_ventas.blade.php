@@ -9,7 +9,7 @@
 
 
       <header>
-     <?php include(app_path()."/../resources/views/template/header.php");?>
+      <?php include(app_path()."/../resources/views/template/header.php");?>
       </header>
 
   

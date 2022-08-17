@@ -4,48 +4,17 @@
 
 <head>
     <?php include(app_path()."/../resources/views/template/head.php");?>
-
-    <link type="text/css" rel="stylesheet" href="assets/jquery-ui-1.11.4.custom/jquery-ui.min.css"/>
-    <link type="text/css" rel="stylesheet" href="assets/DataTables-1.10.7/css/jquery.dataTables.css"/>
-    <script type="text/javascript" src="assets/jquery-1.11.2/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="assets/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="assets/DataTables-1.10.7/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="js/inventario.js"></script>
-  
+    <script type="text/javascript" src="js/inventario.js"></script>  
 </head>
 
 <body>
 
-
     <header>
         <?php include(app_path()."/../resources/views/template/header.php");?>                   
     </header>
-
     
+<<<<<<< HEAD
 
-<style>
-    select.tc_select {
-        width:10%;
-        margin:2px;
-        font-size: small;
-    }    
-    label.tc_select{
-        width:7%;
-        text-align: right;
-        font-size: small;
-    }
-    TR.odd TD{
-        background-color:azure;
-        font-size: 10px;
-    }
-    TR.even TD{
-        font-size: 10px;
-    }
-    select {
-        font-size: 10px;
-    }
-
-</style>
 
 <div class="d-flex,aling-center contenedorInput">
 <div class="row">
@@ -84,6 +53,8 @@
 
 </div>
 
+
+
 <div class="refine-datatable">
     <div class="container-square" style="margin:20px;border: 20px;">
         <div class="refine-group">
@@ -113,13 +84,14 @@
             <th>Stock Total</th>
             <th>Cantidad</th>
             <th>Almacen</th>
+            <th>QR</th>
         </tr>
     </thead>
     <tbody>
 
     </tbody>
     </table>
-
+    <div id="qrcode"></div>
 </div>
 
 

@@ -31,7 +31,8 @@ class InventarioAjax{
             'lote',
             'total',
             'cantidad',
-            'nombre'
+            'nombre',
+            'qrcode'
         );
 
         $sLimit="";
@@ -86,7 +87,8 @@ class InventarioAjax{
                 I.lote,
                 vtotal.total,
                 I.cantidad,
-                A.nombre almacen 
+                A.nombre almacen ,
+                P.codigo qr
             FROM productos as P
             JOIN v_marca as M ON( M.idmarca = P.idmarca )
             JOIN v_rubro AS R ON (R.idrubro = P.idrubro)
