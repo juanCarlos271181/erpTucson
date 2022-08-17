@@ -19,7 +19,7 @@ $(document).ready(function () {
         "bServerSide": true,
         "bAutoWidth": false,
         "bPaginate": true,
-        "sAjaxSource": "api/inventario/byAlmacen",
+        "sAjaxSource": "api/inventario/datatable",
         "oLanguage":
             {
                 "sSearch": "Filtrar por",

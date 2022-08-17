@@ -30,6 +30,24 @@ class UsuarioController extends Controller
         }
     }
 
+    public function byId($idusuario){
+        try{
+            $content = UsuariosAjax::byId($idusuario);
+            if($content != "[]"){
+                 
+                return (new Response($content, 200))
+                ->header('Content-Type', "application/json");                
+            }else{
+                return (new Response(null, 404))
+                ->header('Content-Type', "application/json");   
+          }
+        }catch(Exception $e){
+            $content = "Consulte al dpto de informatica";
+            return (new Response($content, 503))
+                ->header('Content-Type', "application/json");
+        }
+    }
+
     public function datatable(){
         try{
             $content = UsuariosAjax::datatable();

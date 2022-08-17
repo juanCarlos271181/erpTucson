@@ -41,6 +41,27 @@ function send(){
 
 }
 
+function getUsuarioById(id, callback){
+    $.ajax(
+        {
+            type: "POST",
+            headers: {"cache-control": "no-cache"},
+            url: "/usuario/id/"+id,
+            dataType: "json"
+        })
+        .always( )
+        .done(function (data) {
+            if(data.status==200){
+                callback();
+            }            
+           console.log(data);
+        })
+        .fail(function (request, error) {
+            console.log(request.status, request.responseText);
+        });
+
+}
+
 $(document).ready(function () {
 
     $("#user_register").click(function () {

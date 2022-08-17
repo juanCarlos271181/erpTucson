@@ -32,10 +32,11 @@ Route::controller(UsuarioController::class)->group(function(){
     Route::post('/usuario/registro', 'store');
     Route::get('/usuario/login', 'login');
     Route::get('/usuario/datatable', 'datatable');
+    Route::get('/usuario/id/{id}', 'byId');
 });
 
 Route::controller(InventarioController::class)->group(function(){
-    Route::get('/inventario/byAlmacen', 'byAlmacen');
+    Route::get('/inventario/datatable', 'datatable');
 });
 
 Route::controller(ProductoController::class)->group(function(){

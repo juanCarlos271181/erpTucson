@@ -14,9 +14,9 @@ class InventarioController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function byAlmacen(){
+    public function datatable(){
         try{
-            $content = InventarioAjax::byAlmacen();
+            $content = InventarioAjax::datatable();
             return (new Response($content, 200))
                 ->header('Content-Type', "application/json");
         }catch(Exception $e){

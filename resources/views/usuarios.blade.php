@@ -33,6 +33,7 @@
             <th>DNI</th>
             <th>Telefono</th>
             <th>Email</th>
+            <th>idrol</th>
             <th>Rol</th>
             <th>Accion</th>
         </tr>
