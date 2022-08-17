@@ -116,10 +116,6 @@ height: 100%;
 }
 }
 
-<<<<<<< HEAD:public/assets/css/styles.css
- HEAD
-=======
->>>>>>> b1996e136caa67b356508cfc5329db805afbb7c1:public/css/styles.css
 .datos_cliente{
     
     flex-direction:column;
@@ -130,7 +126,7 @@ height: 100%;
     width:80px;
 } 
 
-<<<<<<< HEAD:public/assets/css/styles.css
+
 
 .table-primary {
     background-color: blue;
@@ -142,10 +138,14 @@ height: 100%;
 }
 
  
-=======
+
 .subcard {
     width:150px;
     height:150px;
     padding:10px
 }
->>>>>>> b1996e136caa67b356508cfc5329db805afbb7c1:public/css/styles.css
+
+
+
+.modal_overlay{background-image:url(../img/overlay.png);position:fixed;top:0;left:0;z-index:99;width:100%;height:100%;display:none;overflow:auto}
+

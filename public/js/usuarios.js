@@ -49,9 +49,9 @@ $(document).ready(function () {
         "fnRowCallback": function (nRow, aData, iDisplayIndex) {
             let  tds = $(nRow).children();
             let delete_details="";
-             delete_details+="<a href=\"javascript:deleteAssignedCommunicationsSettings("+aData[0]+");\"><img class=\"imagen\" src=\"./img/eye.png\" style=\"height: 30px;width:30px\"></a>";
-             delete_details+="<a href=\"javascript:deleteAssignedCommunicationsSettings("+aData[0]+");\"><img class=\"imagen\" src=\"./img/lapiz.png\" style=\"height: 30px;width:30px\"></a>";
-             delete_details+="<a href=\"javascript:deleteAssignedCommunicationsSettings("+aData[0]+");\"><img class=\"imagen\" src=\"./img/papelera3.png\" style=\"height: 30px;width:30px\"></a>";
+             delete_details+="<a href=\"javascript:showUsuario("+aData[7]+");\"><img class=\"imagen\" src=\"./img/eye.png\" style=\"height: 30px;width:30px\"></a>";
+             delete_details+="<a href=\"javascript:editUsuario("+aData[7]+");\"><img class=\"imagen\" src=\"./img/lapiz.png\" style=\"height: 30px;width:30px\"></a>";
+             delete_details+="<a href=\"javascript:deleteUsuario("+aData[7]+");\"><img class=\"imagen\" src=\"./img/papelera3.png\" style=\"height: 30px;width:30px\"></a>";
             $(tds[7]).html(delete_details);
             return nRow;
         },
@@ -71,3 +71,7 @@ $(document).ready(function () {
         }
     });
 });
+
+function showUsuario(idusuario){
+    $('#usuario_edit_popup').show();
+}
