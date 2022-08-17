@@ -28,16 +28,35 @@ use Illuminate\Support\Facades\Route;
         return view('login');
     });
 
-    Route::get('/inventario', function () {
+    Route::get('/dashboard/inventario', function () {
+        if(!isLogged())    return redirect('/');
+        return view('/dashboard/inventario_dashboard');
+    });
+    Route::get('/inventario_listado', function () {
         if(!isLogged())    return redirect('/');
         return view('inventario');
     });
+
+
+    Route::get('/dashboard/usuario', function () {
+        if(!isLogged())    return redirect('/');
+        return view('dashboard/usuarios_dashboard');
+    });
+    Route::get('/usuario_listado', function () {
+        if(!isLogged())    return redirect('/');
+        return view('usuarios');
+    });
+    Route::get('/usuario_registro', function () {
+        if(!isLogged())    return redirect('/');
+        return view('registro_usuario');
+    });
+
 
     Route::get('/marmoleria', function () {
         if(!isLogged())    return redirect('/');
         return view('marmoleria');
     });
-
+ 
     Route::get('/menu_principal', function () {
         if(!isLogged()) return redirect('/'); 
         return view('menu_principal');
@@ -53,10 +72,6 @@ use Illuminate\Support\Facades\Route;
         return view('pegamentos');
     });
 
-    Route::get('/perfil_usuario', function () {
-        if(!isLogged())    return redirect('/');
-        return view('perfil_usuario');
-    });
 
     Route::get('/prueba_validacion', function () {
         if(!isLogged())    return redirect('/');

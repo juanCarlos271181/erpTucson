@@ -23,6 +23,12 @@ class LoginController extends Controller
         
     }
 
+
+    public static function logged(){
+        return isset($_SESSION["user"]);
+    }    
+
+
     public static function isLogged($show=0){
         //$show=1;    
         $sessionKey = session_id();
@@ -56,7 +62,7 @@ class LoginController extends Controller
         }
 
 
-        $isLogged = (($sessionLastPing)<100) && ($username!="");
+        $isLogged = (($sessionLastPing)<300) && ($username!="");
         
         if(!$isLogged){
             self::logout();

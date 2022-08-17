@@ -25,11 +25,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::controller(LoginController::class)->group(function(){
     Route::post('/login', 'login');
     Route::post('/logout', 'logout');
+    Route::get('/logged', 'logged');
 });
 
 Route::controller(UsuarioController::class)->group(function(){
     Route::post('/usuario/registro', 'store');
     Route::get('/usuario/login', 'login');
+    Route::get('/usuario/datatable', 'datatable');
 });
 
 Route::controller(InventarioController::class)->group(function(){

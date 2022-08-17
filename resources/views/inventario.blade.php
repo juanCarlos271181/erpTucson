@@ -25,7 +25,7 @@
 
 <style>
     select.tc_select {
-        width:20%;
+        width:10%;
         margin:2px;
         font-size: small;
     }    
@@ -35,14 +35,14 @@
         font-size: small;
     }
     TR.odd TD{
-        background-color:#E7F6F2;
-        font-size: small;
+        background-color:azure;
+        font-size: 10px;
     }
     TR.even TD{
-        font-size: small;
+        font-size: 10px;
     }
     select {
-        font-size: small;
+        font-size: 10px;
     }
 
 </style>
@@ -87,9 +87,12 @@
 <div class="refine-datatable">
     <div class="container-square" style="margin:20px;border: 20px;">
         <div class="refine-group">
-            <div style="display:flex">
-                <label class="tc_select"></label><select class="tc_select" id="superrubro_filter"></select><br>
+        <div style="display:inline">
+                <img src="./img/inventario.50.png" >
+            </div>
+            <div style="display:inline">
                 <label class="tc_select"></label><select  class="tc_select" id="almacen_filter"></select>
+                <label class="tc_select"></label><select class="tc_select" id="superrubro_filter"></select>
                 <label class="tc_select"></label><select  class="tc_select" id="rubro_filter"></select>
                 <label class="tc_select"></label><select  class="tc_select" id="marca_filter"></select>
             </div>

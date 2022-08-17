@@ -12,9 +12,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 <?php if(isset($_SESSION["user"])){ ?>
-    
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./">Home</a></li>
-                        <li class="nav-item"> <img src="./img/usuario2.jpg" width="60px" ></li>
+                        <li class="nav-item"> <img src="./img/usuario2.jpg" width="30px" style="margin-top:10px"></li>
                         <li class="nav-link"> 
 
  <select class="form-select form-select-sm" aria-label=".form-select-sm example">
@@ -38,3 +36,6 @@
                 </div>
             </div>
         </nav>
+        <pre>
+        <?php /*var_dump($_SERVER);*/ ?>
+        </pre>

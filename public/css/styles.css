@@ -116,14 +116,21 @@ height: 100%;
 }
 }
 
+<<<<<<< HEAD:public/assets/css/styles.css
  HEAD
+=======
+>>>>>>> b1996e136caa67b356508cfc5329db805afbb7c1:public/css/styles.css
 .datos_cliente{
     
     flex-direction:column;
     
 }
 
+.imagen20 {
+    width:80px;
+} 
 
+<<<<<<< HEAD:public/assets/css/styles.css
 
 .table-primary {
     background-color: blue;
@@ -135,3 +142,10 @@ height: 100%;
 }
 
  
+=======
+.subcard {
+    width:150px;
+    height:150px;
+    padding:10px
+}
+>>>>>>> b1996e136caa67b356508cfc5329db805afbb7c1:public/css/styles.css

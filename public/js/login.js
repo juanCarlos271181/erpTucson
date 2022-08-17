@@ -43,7 +43,7 @@ function logout(){
             dataType: "json"
         })
         .always(function() { 
-            window.location="./";
+            window.location=path;
         });
 }
 
@@ -58,6 +58,26 @@ $(document).ready(function () {
             logout();
         }
     });
-    
+   
+    setInterval(function(){
+        $.ajax(
+            {
+                type: "GET",
+                headers: {"cache-control": "no-cache"},
+                url: "api/logged",
+                data: null,
+                dataType: "text",
+                success: function(result){
+                    if(!result){
+                        console.log("Byeee!");
+                        logout();        
+                    }
+                 },
+                 error: function(xhr, ajaxOptions, thrownError) {
+                     alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                 }
+     
+            });
+    },120*1000);
 
 });
