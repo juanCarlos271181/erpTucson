@@ -15,7 +15,7 @@
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:1px">
                     <a href="#" class="button">
-                        <img src="./img/usuario.jfif" class="card-img-top imagen20" alt="imagen de tarjeta">
+                        <img src="./img/usuario.jfif" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
                     </a>
                     <div class="card-body">
                         <h6>USUARIOS</h6>
@@ -87,7 +87,7 @@
         
         </div> 
 
-        <div id="content1" class="contenedorMenu col-10">
+        <div id="content1" class="contenedorMenu col-9">
             &nbsp;
         </div>
     <!--/div-->
