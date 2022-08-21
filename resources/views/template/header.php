@@ -1,7 +1,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
             <div class="container">
             <div style="display:inline">
-                <img src="./img/inventario.50-removebg.png"style="width: 110%">
+                
             </div>
                 <div class="logo" id="logoTucson">
                     

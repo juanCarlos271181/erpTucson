@@ -8,16 +8,19 @@
 
 
 
+
+
 <header>
     <?php include(app_path()."/../resources/views/template/header.php");?>
 </header>
 
 
 
+  
 
 
-        <div class=" d-flex col-md-9 col-lg-8 col-xl-8 h-100"id="imagenForm">
-          <img src="./img/logoTucsonBlue.jpg" class="img-fluid" alt="Sample image">
+        <div class="d-flex justify-content-center align-items-center"id="bgHome">
+          <img src="./img/logoTucsonBlue-removebg-preview.png" class="img-fluid" style="width:30%"alt="Sample image">
         </div>
 
 

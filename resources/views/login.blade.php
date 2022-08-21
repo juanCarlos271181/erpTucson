@@ -25,7 +25,7 @@
        
         <div>
 
-        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenCandado">
+        <div class="col-md-9 col-lg-6 col-xl-2 "id="imagenCandado">
           <img src="./img/candado.png" class="img-fluid" alt="Sample image">
         </div>
         

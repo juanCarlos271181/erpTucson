@@ -10,7 +10,7 @@
     <br>
     <!--div class="row" style="heightx:400px"-->
 
-    <div class="contenedorMenu" style=" height:500px">
+    <div class="contenedorMenu justify-content-center" style=" height:500px">
         <div class="contenedorMenuZ col-2" style="overflow:auto">
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:1px">
