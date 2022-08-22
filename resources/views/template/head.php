@@ -3,7 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/x-icon" href="img/logoBlue.png" style="height:10px">
         <script type="text/javascript" src="assets/qrcode/qrcode.min.js"></script>
         <script type="text/javascript" src="assets/jquery-1.11.2/jquery-1.11.2.min.js"></script>

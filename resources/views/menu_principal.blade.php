@@ -75,6 +75,8 @@
             </div>
         
         
+            <i class="fa fa-expeditedssl"></i>
+
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
                     <img src="./img/dashboard.jpg" class="card-img-top imagen20"  alt="imagen de tarjeta">

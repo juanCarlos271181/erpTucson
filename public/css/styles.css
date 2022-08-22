@@ -69,6 +69,10 @@ margin-bottom: 40px;
     width: 200px;
     margin-top: 20px;
 }
+#imagenCandado{
+    margin-left: 40px;
+    
+}
 
 
 
@@ -140,6 +144,8 @@ height: 100%;
 #bgLogin{
     background-color:#F9F5EB;
 }
+
+
 
 .card-img-top{
     margin-left: 25px;
