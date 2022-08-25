@@ -10,12 +10,12 @@
     <br>
     <!--div class="row" style="heightx:400px"-->
 
-    <div class="contenedorMenu" style=" height:500px">
+    <div class="contenedorMenu justify-content-center" style=" height:500px">
         <div class="contenedorMenuZ col-2" style="overflow:auto">
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:1px">
                     <a href="#" class="button">
-                        <img src="./img/usuario.jfif" class="card-img-top imagen20" alt="imagen de tarjeta">
+                        <img src="./img/usuario.jfif" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
                     </a>
                     <div class="card-body">
                         <h6>USUARIOS</h6>
@@ -75,6 +75,8 @@
             </div>
         
         
+            <i class="fa fa-expeditedssl"></i>
+
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
                     <img src="./img/dashboard.jpg" class="card-img-top imagen20"  alt="imagen de tarjeta">
@@ -87,7 +89,7 @@
         
         </div> 
 
-        <div id="content1" class="contenedorMenu col-10">
+        <div id="content1" class="contenedorMenu col-9">
             &nbsp;
         </div>
     <!--/div-->

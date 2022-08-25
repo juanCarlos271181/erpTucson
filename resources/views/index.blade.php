@@ -5,14 +5,33 @@
     </head>
 <body>
 
+
+
+
+
+
 <header>
     <?php include(app_path()."/../resources/views/template/header.php");?>
 </header>
+
+
+
+  
+
+
+        <div class="d-flex justify-content-center align-items-center"id="bgHome">
+          <img src="./img/logoTucsonBlue-removebg-preview.png" class="img-fluid" style="width:30%"alt="Sample image">
+        </div>
+
+
+
+
+
+
+
+
     
-<div class="m-0 text-center">
-    <img src="./img/controlInventarios.webp" class="img-fluid" alt="...">
-    
-</div>
+
 
 <footer class="py-5 bg-dark">
     <?php include(app_path()."/../resources/views/template/footer.php");?>

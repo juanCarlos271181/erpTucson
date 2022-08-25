@@ -101,6 +101,10 @@ Route::get('/registro_ventas', function () {
     return view('registro_ventas');
 });
 
+Route::get('cardsMenu', function () {
+    return view('cardsMenu');
+});
+
 
 
 

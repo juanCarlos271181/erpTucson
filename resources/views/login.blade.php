@@ -13,7 +13,7 @@
   </header>
 <br>
 
-  <section class="vh-100" id="">
+  <section class="vh-100" id="bgLogin">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
     
@@ -21,32 +21,32 @@
           <img src="./img/almacen-registrate.webp" class="img-fluid" alt="Sample image">
         </div>
         <br>
-        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <div class="d-flex justify-content-center  col-md-8 col-lg-8 col-xl-4 offset-xl-1">
        
-        <div>
+        <div> 
 
-        <div class="col-md-9 col-lg-6 col-xl-5"id="imagenCandado">
+        <div class="col-xl-4 "id="imagenCandado">
           <img src="./img/candado.png" class="img-fluid" alt="Sample image">
-        </div>
+          </div>
+
+  
         
-            <div class="form-outline mb-4">
-              <input type="text" id="username" class="form-control form-control-lg"
-                placeholder="Usuario" />
-              <label class="form-label" for="username"></label>
-             </div>
+           
+<div class="input-group mb-3">
+  <span class="input-group-text" id="username">@</span>
+  <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
+  <label class="form-label" for="username"></label>
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1"><i class="fa fa-expeditedssl" style="font-size:15px"></i></span>
+  <input type="password" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
+  <label class="form-label" for="password"></label>
+</div>
              
 
 
-            <div class="form-outline mb-3">
-              <input type="password" id="password" class="form-control form-control-lg"
-                placeholder="Contraseña" />
-
-              <label class="form-label" for="password"></label>
-            </div>
-
             <div class="d-flex justify-content-between align-items-center">
-
-              
               <a href="./registro_usuario" class="text-body">Registrarme</a>
             </div>
 
@@ -54,10 +54,11 @@
               <button type="button" id="login" class="btn btn-dark btn-lg"                
                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar</button>
             </div>
-    </div>
+         </div>
         </div>
       </div>
     </div>
+  
     <br>
     
     <footer class="py-5 bg-dark">

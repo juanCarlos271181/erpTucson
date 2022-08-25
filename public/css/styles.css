@@ -27,6 +27,13 @@
     background:#E2DCC8;
 }
 
+#imagenPrincipal{
+    background-image: url(./img/logoTucsonBlue.jpg);
+    max-width: 100%;
+};
+
+
+
 
 #titulo{
     margin:0px auto;
@@ -62,6 +69,10 @@ margin-bottom: 40px;
     width: 200px;
     margin-top: 20px;
 }
+#imagenCandado{
+    margin-left: 40px;
+    
+}
 
 
 
@@ -78,6 +89,10 @@ margin-bottom: 40px;
 
 #qrcode{
     width: 40px;
+}
+
+#bgHome{
+background-color: #000000;
 }
 
 
@@ -113,8 +128,39 @@ height: 100%;
     width:80px;
 } 
 
+
+
+.table-primary {
+    background-color: blue;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height:50%
+}
+.contenedorMenu {
+    background-color:#F9F5EB;
+}
+#bgLogin{
+    background-color:#F9F5EB;
+}
+
+
+
+.card-img-top{
+    margin-left: 25px;
+}
+
+
+ 
+
 .subcard {
     width:150px;
     height:150px;
     padding:10px
 }
+
+
+
+.modal_overlay{background-image:url(../img/overlay.png);position:fixed;top:0;left:0;z-index:99;width:100%;height:100%;display:none;overflow:auto}
+
