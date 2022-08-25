@@ -40,7 +40,7 @@ class UsuarioRepo{
         .always( )
         .done(function (data) {
                 if(data.status==200){
-                    alert("Usuario Creado Exitosamente");
+                    return "Usuario Creado Exitosamente");
                 }else{
                     alert("Por favor completar todos los campos");
                 }
