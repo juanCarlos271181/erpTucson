@@ -1,7 +1,7 @@
         <div class="contenedorMenu">
 
             <div class="col-12" id="card_usuario_listado">
-                <div class="subcard"  >
+                <div class="subcard">
                     <a href="./usuario_listado" class="buttonx">
                         <img src="./img/usuario.50.png" >
                     </a>

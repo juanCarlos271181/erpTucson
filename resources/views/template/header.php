@@ -5,10 +5,10 @@
             </div>
                 <div class="logo" id="logoTucson">
                     
-                    <img src="./img/logoBlue.png" alt="" style="width: 30%;">
+                    <img src="./img/logoBlue.png" alt="" style="width: 20%;">
+                    <a class="navbar-brand" href="#!">SYSTEM TUCSON</a>
                 </div>
            
-                <a class="navbar-brand" href="#!">SYSTEM TUCSON</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span

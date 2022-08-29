@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-        
+        <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:1px">
                     <img src="./img/ventas.jpg" class="card-img-top imagen20" alt="imagen de tarjeta">
@@ -32,7 +32,7 @@
                     <a href="#"></a>
                 </div>
             </div>
-        
+        <br>
             <div class="col-12" id="card_inventario">
                 <div class="card" style="width:10rem; padding:10px">
                     <a href="#" class="button">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-        
+<br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
                     <img src=" ./img/logistica2.jpg" class="card-img-top imagen20" alt="imagen de tarjeta">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            
+            <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
                     <img src="./img/operacion-empresa.jpg " class="card-img-top imagen20" alt="imagen de tarjeta">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-        
+        <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
                     <img src="./img/dashboard.jpg" class="card-img-top imagen20" alt="imagen de tarjeta">
@@ -74,9 +74,7 @@
                 </div>
             </div>
         
-        
-            <i class="fa fa-expeditedssl"></i>
-
+        <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
                     <img src="./img/dashboard.jpg" class="card-img-top imagen20"  alt="imagen de tarjeta">
@@ -88,6 +86,12 @@
             </div>
         
         </div> 
+
+
+     
+<br>
+
+
 
         <div id="content1" class="contenedorMenu col-9">
             &nbsp;
