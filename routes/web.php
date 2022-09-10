@@ -32,14 +32,21 @@ use Illuminate\Support\Facades\Route;
         if(!isLogged())    return redirect('/');
         return view('/dashboard/inventario_dashboard');
     });
-    Route::get('/inventario_listado', function () {
+    Route::get('/inventario_productos', function () {
         if(!isLogged())    return redirect('/');
         return view('inventario');
     });
 
-    Route::get('/inventario_entrada', function () {
+
+    Route::get('/inventario_entradas', function () {
         if(!isLogged())    return redirect('/');
-        return view('inventario_entrada');
+        return view('inventario_entradas');
+    });
+    
+
+    Route::get('/inventario_salidas', function () {
+        if(!isLogged())    return redirect('/');
+        return view('/inventario_salidas');
     });
 
 
@@ -71,6 +78,18 @@ use Illuminate\Support\Facades\Route;
         if(!isLogged())    return redirect('/');
         return view('menu');
     });
+
+    Route::get('/toma_inventario', function () {
+        if(!isLogged())    return redirect('/');
+        return view('toma_inventario');
+    });
+
+    Route::get('/movimientos_almacen', function () {
+        if(!isLogged())    return redirect('/');
+        return view('movimientos_almacen');
+    });
+
+
 
     Route::get('/pegamentos', function () {
         if(!isLogged())    return redirect('/');
@@ -106,9 +125,7 @@ Route::get('/registro_ventas', function () {
     return view('registro_ventas');
 });
 
-Route::get('cardsMenu', function () {
-    return view('cardsMenu');
-});
+
 
 
 

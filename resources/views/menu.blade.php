@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <?php include(app_path()."/../resources/views/template/head.php");?>    
+    </head>
 
-<head>
-  <?php include(app_path()."/../resources/views/template/head.php");?>
-    
-    <title>prueba</title>
 
- </head>
- <body>
 
-<div class="d-flex">
-  <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <body>
+        <header>
+            <?php include(app_path()."/../resources/views/template/header.php");?>       
+        </header>
+    <br>
+   
+   <i class="fa-solid fa-house"></i>
 
-     <ul class="nav flex-column">
-     <li class="nav-item">
-     <img src="../img/logoBlue.png" alt="" style="width: 45%;">
-  
-  <div class= "menu">
-      <a class="nav-link active" href="./views/prueba"><i class="bi bi-list"></i>MENU</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link"href="#"><i class="bi bi-people-fill"></i>USUARIOS</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#"><i class="bi bi-credit-card"></i>VENTAS</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#" class="d-block text-light p-3"><i class="bi bi-bar-chart-fill"mr-2"></i>INVENTARIO</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#"><i class="bi bi-truck"></i>LOGISTICA</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#"><i class="bi bi-pc-display-horizontal"></i>OPERACIONES</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#"><i class="bi bi-grid-3x3-gap-fill"></i>DASHBOARD</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#"><i class="bi bi-gear-fill"></i><i class=""></i>CONFIGURACION</a>
-      </li>
- </div>
-  </ul>
-  
+<div class=containerMenu style="height:400px">
+<div class="d-flex justify-content-center" role="group">
+
+<div class="col-6">
+<a href="./inventario_entradas"><button type="button" class="btnMenu">Entradas</button>
+</div>
+<div class="col-6">
+<a href="./inventario_salidas"> <button type="button" class="btnMenu"style="">Salidas</button>
+</div>
+<a href="./inventario_productos"> <button type="button" class="btnMenu"style="">Productos</button>
+
 </div>
 
+ <div class="d-flex justify-content-center" role="group">
+ <div class="col-6">
+     <a href="./toma_inventario"><button type="button" class="btnMenu"style="">Toma de Inventario</button>
+     </div>
+     <div class="col-6">
+     <a href="./movimientos_almacen"> <button type="button" class="btnMenu"style="">Movimientos entre Almacen</button>
+     </div>
+     <a href="./configuracion"> <button type="button" class="btnMenu"style="">Configuración</button>
+ </div>
+ </div>
+<br>
+
+    <button><i class="fa-thin fa-right-to-bracket"></i></button>
+    <button><i class="fa-thin fa-right-to-bracket"></i></button>
+    
+     
+    <footer class="py-5 bg-dark">
+        <?php include(app_path()."/../resources/views/template/footer.php");?>
+    </footer>
 
 
+
+    <script src="https://kit.fontawesome.com/85fec555d4.js"></script>
 </body>
-</html>
+
+   

@@ -3,11 +3,7 @@
     <head>        
         <?php include(app_path()."/../resources/views/template/head.php");?>
     </head>
-<body class="homeBg"id="indexBg">
-
-
-
-
+<body>
 
 
 <header>
@@ -16,12 +12,8 @@
 
 
 
-  
 
-
-        <div class="d-flex justify-content-center align-items-center"id="bgHome">
-          <img src="./img/imgAlmacen.webp" class="img-fluid" style="width:100% hight:600px"alt="Sample image">
-        </div>
+<h1>VISTA EN CONSTRUCCION ...FAVOR ESPERAR</h1>
 
 
 
@@ -30,7 +22,8 @@
 
 
 
-    
+
+
 
 
 <footer class="py-4 bg-dark">
