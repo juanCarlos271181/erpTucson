@@ -58,14 +58,17 @@
                 
 </div>
 
-   <br>  
-<hr>
 
+   <br>  
+<br>
+  
+</div>
 
             </div>
-          
+           
 
      </div>
+     
 
     <div class="container">
         
@@ -87,7 +90,7 @@
        <div class="col">
        <input type="text" class="form-control" placeholder="Stock:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
        </div>
-
+      
 
        <div class="col">
        <select class="form-select" size="1" aria-label="size 3 select example">
@@ -98,15 +101,16 @@
 
         </select>
         </div>
-
+        
        </div>
-
+      
 
     </div>
+   
 
     <br>        
 
-<hr>
+    <span class="placeholder col-12 bg-secondary"></span>
 <table class=" table table-striped table-hover">
         <thead>
             <tr class="table-primary">

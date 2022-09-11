@@ -35,6 +35,8 @@
         <div class="col">
         <button type="button" class="btn btn-secondary">Buscar</button>
         </div>
+    
+      
 
                 
 </div>
@@ -45,12 +47,35 @@
 <span class="placeholder col-12 bg-secondary"></span>
 
 <br>
-<div class="col-4">
-<div class="input-group">
-  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
-  <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04"></button>
+<br>
+
+<div class="container">
+        
+        <div class="d-flex justify-content-center row">
+ 
+ 
+        <div class="d-flex col">
+              <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+            <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Descargar.xls</button>
+        </div>
+         
+        <div class="d-flex col">
+        <label>Fecha Final:</label>
+        <input type="date" class="form-control" placeholder="Fecha Final:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
+        </div>
+
+        <div class="col">
+        <button type="button" class="btn btn-secondary">Buscar</button>
+        </div>
+    
+      
+
+                
 </div>
+
 </div>
+
+   
 
 <br>
 <br>
@@ -63,20 +88,46 @@
 
 
 
-<div class="modal-body">
-  <h5>Popover in a modal</h5>
-  <p>This <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
-  
-  <span class="placeholder col-12 bg-secondary"></span>
-
-  <h5>Tooltips in a modal</h5>
-  <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
-</div>
 
 
 
+<span class="placeholder col-12 bg-secondary"></span>
 
-
+<table class=" table table-striped table-hover">
+        <thead>
+            <tr class="table-primary">
+                <th scope="col">Código</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Lote</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Unidad Medida</th>
+                <th scope="col">Almacen</th>
+                <th scope="col">Entrada</th>
+                <th scope="col">Salida</th>
+                <th scope="col">Stock Actual</th>
+                <th scope="col">Total Ingreso</th>
+                <th scope="col">Total Egreso</th>
+                
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">000001</th>
+                <td>Rosseto 57x57</td>
+                <td>24JK</td>
+                <td>420.000</td>
+                <td>1.8</td>
+                <td>Pilar</td>
+                <td>20.000</td>
+                <td>310.000</td>
+                <td>130.000</td>
+                <td>20.000</td>
+                <td>130.000</td>
+            </tr>
+          
+        </tbody>
+    </table>
 
 
 
