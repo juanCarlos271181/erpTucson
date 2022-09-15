@@ -13,14 +13,43 @@
     </header>
     <br>
 
+<br>
+<br>
+<br>
+
+<div class="container">
+
+<form>
+
+<div class="d-grid ">
+<div class="row d-flex justify-content-evenly">
+<div class="col-4 d-grid gap-4">
     
+<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>Entradas</button>
+<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>Salidas</button>
+<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-boxes-stacked fa-2x"></i>Productos</button>
+</div>
+<div class="col-4 d-grid gap-4">
+<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-warehouse fa-2x"></i>Toma Inventario</button>
+<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-cart-flatbed fa-2x"></i>Movimientos entre Almacen</button>
+<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-gears fa-2x"></i>Configuracion</button>
+</div>
+</div>
 
-    <div class=containerMenu style="height:400px">
-        <div class="d-flex justify-content-center" role="group">
 
-            <div class="col-6">
-                <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal">Entradas</button>
-            </div>
+
+</form>
+
+
+</div>
+
+
+
+
+    <div class="containerMenu" style="height:200px">
+        <div class="" role="group">
+
+           
 
             <div class="modal fade" id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
                 <div class="modal-dialog">
@@ -31,17 +60,17 @@
                         </div>
                         <div class="modal-body">
                             <a href="./inventario_entradas">
-                            <i class="fa-solid fa-arrow-right-to-bracket fa-3x"></i>  
+                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
                             </a>
                             <a href="./inventario_salidas">
-                            <i class="fa-solid fa-list-check fa-3x"></i>
+                                <i class="fa-solid fa-list-check fa-2x"></i>
                             </a>
                             <a href="./inventario_salidas">
-                            <i class="fa-solid fa-magnifying-glass fa-3x"></i>
+                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
                             </a>
 
 
-                            <img src="./img/listar.jpg" class="card-img-top imagen20" alt="imagen de tarjeta" id="img_tarjeta">
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -53,32 +82,246 @@
             </div>
 
 
-            <div class="col-6">
-                <a href="./inventario_salidas"> <button type="button" class="btnMenu">Salidas</button>
-            </div>
-            
-            <a href="./inventario_productos"> <button type="button" class="btnMenu">Productos</button>
+          
 
-        </div>
+            <div class="modal fade" id="ModalSalida" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+                            </a>
+                            <a href="./inventario_listar">
+                                <i class="fa-solid fa-list-check fa-2x"></i>
+                            </a>
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            </a>
 
-        <div class="d-flex justify-content-center" role="group">
-            <div class="col-6">
-                <a href="./toma_inventario"><button type="button" class="btnMenu">Toma de Inventario</button>
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
-            <div class="col-6">
-                <a href="./movimientos_almacen"> <button type="button" class="btnMenu">Movimientos entre Almacen</button>
+
+
+
+           
+
+            <div class="modal fade" id="ModalSalida" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+                            </a>
+                            <a href="./inventario_listar">
+                                <i class="fa-solid fa-list-check fa-2x"></i>
+                            </a>
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            </a>
+
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
-            <a href="./configuracion"> <button type="button" class="btnMenu">Configuración</button>
+
+
+          
+
+            <div class="modal fade" id="ModalSalida" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+                            </a>
+                            <a href="./inventario_listar">
+                                <i class="fa-solid fa-list-check fa-2x"></i>
+                            </a>
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+           
+
+            <div class="modal fade" id="ModalSalida" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+                            </a>
+                            <a href="./inventario_listar">
+                                <i class="fa-solid fa-list-check fa-2x"></i>
+                            </a>
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            </a>
+
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+           
+
+            <div class="modal fade" id="ModalSalida" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+                            </a>
+                            <a href="./inventario_listar">
+                                <i class="fa-solid fa-list-check fa-2x"></i>
+                            </a>
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            </a>
+
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+          
+
+            <div class="modal fade" id="ModalSalida" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+                            </a>
+                            <a href="./inventario_listar">
+                                <i class="fa-solid fa-list-check fa-2x"></i>
+                            </a>
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            </a>
+
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+           
+
+            <div class="modal fade" id="ModalSalida" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+                            </a>
+                            <a href="./inventario_listar">
+                                <i class="fa-solid fa-list-check fa-2x"></i>
+                            </a>
+                            <a href="./inventario_salidas">
+                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            </a>
+
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+           
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-    <br>
-
-    
     <footer class="py-5 bg-dark">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
 
-
-
-    <script src="https://kit.fontawesome.com/85fec555d4.js"></script>
 </body>
+
+</html>
