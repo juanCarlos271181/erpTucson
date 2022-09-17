@@ -31,7 +31,7 @@
 </div>
 <div class="col-4 d-grid gap-4">
 <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-warehouse fa-2x"></i>Toma Inventario</button>
-<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-cart-flatbed fa-2x"></i>Movimientos entre Almacen</button>
+<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-cart-flatbed fa-2x"></i>Movimientos</button>
 <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-gears fa-2x"></i>Configuracion</button>
 </div>
 </div>

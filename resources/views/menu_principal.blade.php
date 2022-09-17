@@ -9,6 +9,16 @@
         </header>
     <br>
     <!--div class="row" style="heightx:400px"-->
+<style>
+
+body{
+    background: lightgray;
+}
+
+</style>
+
+
+
 
     <div class="contenedorMenu" style=" height:400px">
         <div class="contenedorMenu  col-2">

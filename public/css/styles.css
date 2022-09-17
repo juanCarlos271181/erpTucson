@@ -20,7 +20,7 @@ h4{
 }
 
 
-@import "bootstrap/scss/bootstrap.scss";
+
 
 
 .logo a{
@@ -172,20 +172,30 @@ height: 100%;
     font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
-    color: #fff;
+    color: black;
     background-size: 300%;
     background-image: -moz-linear-gradient(to left, #00b7DA,#161569,#00B7DA);
 }
+.btnMenu i{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.modal-body i{
+    justify-content: center;
+    padding: 20px;
+    margin-left: 50px;
+    
+    
+    
+}
+
 
 .tituloEntrada{
     margin-top: 20px;
     margin-right: 30px;
 }
-
-
-
-
-
 
 
 

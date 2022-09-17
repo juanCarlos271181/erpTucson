@@ -6,7 +6,7 @@
                 <div class="logo" id="logoTucson">
                     
                     <img src="./img/logoBlue.png" alt="" style="width: 20%;">
-                    <a class="navbar-brand" href="#!">SYSTEM TUCSON</a>
+                    <a class="navbar-brand" href="#!">ERP TUCSON</a>
                 </div>
            
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
