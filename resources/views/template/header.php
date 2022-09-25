@@ -31,10 +31,10 @@
                             
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./menu_principal">Menu</a>
+                            <a class="nav-link" aria-current="page" href="./menu_principal">MENU</a>
                         </li>
 <?php }else{ ?>
-                        <li class="nav-item"><a class="nav-link" href="./login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./login">LOGIN</a></li>
 <?php }?>
                         
                     </ul>

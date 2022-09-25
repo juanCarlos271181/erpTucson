@@ -27,7 +27,9 @@
     
 <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>Entradas</button>
 <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>Salidas</button>
-<button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-boxes-stacked fa-2x"></i>Productos</button>
+<a href="./inventario">
+<button type="button" class="btnMenu" data-bs-toggle="" data-bs-target=""><i class="fa-solid fa-boxes-stacked fa-2x"></i>Productos</button>
+</a>
 </div>
 <div class="col-4 d-grid gap-4">
 <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"><i class="fa-solid fa-warehouse fa-2x"></i>Toma Inventario</button>
@@ -46,34 +48,44 @@
 
 
 
-    <div class="containerMenu" style="height:200px">
+    <div class="containerMenu" style="height:40px">
         <div class="" role="group">
 
            
 
             <div class="modal fade" id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
                 <div class="modal-dialog">
-                    <div class="modal-content">
+                    <div class="modal-content ">
                         <div class="modal-header">
                             <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                         </div>
-                        <div class="modal-body">
+                        <div class=" d-flex modal-body text-decoration-none"style="height:100px">
                             <a href="./inventario_entradas">
-                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+                            <img src="./img/nuevofree.png" class="card-img-top imagen20" alt="imagen de tarjeta"id="nuevoImg">
+                            <div class="link">
+                            <p>Nuevo</p>
+                            </div>
                             </a>
-                            <a href="./inventario_salidas">
-                                <i class="fa-solid fa-list-check fa-2x"></i>
+                            
+                            <a href="./listar_entradas">
+                            <img src="./img/listarfree.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                            <div class="link">
+                            <p>Listar</p>
+                            </div>
                             </a>
-                            <a href="./inventario_salidas">
-                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            <a href="./inventario">
+                            <img src="./img/lupafree.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                            <div class="link">
+                            <p>Buscar</p>
+                            </div>
                             </a>
 
 
 
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                         
                         </div>
                     </div>
                 </div>

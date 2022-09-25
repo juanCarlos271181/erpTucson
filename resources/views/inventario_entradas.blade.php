@@ -21,7 +21,7 @@
  
  
         <div class="col-4">
-        <input type="text" class="form-control" placeholder="Nombre de Documento" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
+        <input type="text" class="form-control" placeholder="N° de Documento" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
         </div>
          
         <div class="col-4">
@@ -58,12 +58,9 @@
 
    <br>  
    
-
-
-            </div>
+</div>
           
-
-     </div>
+</div>
 
     <div class="container">
         
@@ -108,6 +105,10 @@
     <br>        
 
     <span class="placeholder col-12 bg-secondary"></span>
+
+    <br>
+    <br>
+    <br>
 
 <table class=" table table-striped table-hover">
         <thead>

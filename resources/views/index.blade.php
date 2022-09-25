@@ -20,7 +20,7 @@
 
 
         <div class="d-flex justify-content-center align-items-center"id="bgHome">
-          <img src="./img/imgAlmacen.webp" class="img-fluid" style="width:100% hight:600px"alt="Sample image">
+          <img src="./img/imgAlmacen.webp" class="img-fluid" style="width:100% hight 500px"alt="Sample image">
         </div>
 
 
@@ -33,7 +33,7 @@
     
 
 
-<footer class="py-4 bg-dark">
+<footer class="py-5 bg-dark">
     <?php include(app_path()."/../resources/views/template/footer.php");?>
 </footer>
 

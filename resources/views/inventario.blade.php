@@ -14,10 +14,10 @@
     </header>
     
     <div class="refine-datatable">
-    <div class="container-square" style="margin:20px;border: 30px;">
+    <div class="container-square" style="border: 30px;">
         <div class="refine-group">
             <div style="display:inline">
-                <img src="./img/inventario.50.png">
+                
             </div>
 
 <br>

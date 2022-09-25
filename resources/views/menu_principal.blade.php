@@ -20,12 +20,12 @@ body{
 
 
 
-    <div class="contenedorMenu" style=" height:400px">
+    <div class="contenedorMenu" style=" height:450px">
         <div class="contenedorMenu  col-2">
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:1px">
                     <a href="#" class="button">
-                        <img src="./img/usuario.jfif" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
+                        <img src="./img/usuarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
                     </a>
                     <div class="card-body">
                         <h6>USUARIOS</h6>
@@ -35,7 +35,7 @@ body{
         <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
-                    <img src="./img/ventas.jpg" class="card-img-top imagen20" alt="imagen de tarjeta">
+                    <img src="./img/ventasNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     <div class="card-body">
                         <h6>VENTAS</h6>
                     </div>
@@ -46,7 +46,7 @@ body{
             <div class="col-12" id="card_inventario">
                 <div class="card" style="width:10rem; padding:6px">
                     <a href="./menu" class="button">
-                        <img src=" ./img/inventario.webp" class="card-img-top imagen20" alt="imagen de tarjeta">
+                        <img src=" ./img/inventarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     </a>
                     <div class="card-body">
                         <h6>INVENTARIO</h6>     
@@ -56,7 +56,7 @@ body{
 <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
-                    <img src=" ./img/logistica2.jpg" class="card-img-top imagen20" alt="imagen de tarjeta">
+                    <img src=" ./img/logisticaNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     <div class="card-body">
                         <h6>LOGISTICA</h6>
                         <a href="#"></a>
@@ -66,7 +66,7 @@ body{
             <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
-                    <img src="./img/operacion-empresa.jpg " class="card-img-top imagen20" alt="imagen de tarjeta">
+                    <img src="./img/operacionNew.png " class="card-img-top imagen20" alt="imagen de tarjeta">
                     <div class="card-body">
                         <h6>OPERACION</h6>
                         <a href="#"></a>
@@ -76,7 +76,7 @@ body{
         <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
-                    <img src="./img/dashboard.jpg" class="card-img-top imagen20" alt="imagen de tarjeta">
+                    <img src="./img/dashboardNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     <div class="card-body">
                         <h6>DASHBOARD</h6>
                         <a href="#"></a>

@@ -25,14 +25,14 @@ use Illuminate\Support\Facades\Route;
 
     Route::get('/login', function () {
         if(isLogged())    return redirect('/');
-        return view('login');
+        return view('login2');
     });
 
     Route::get('/dashboard/inventario', function () {
         if(!isLogged())    return redirect('/');
         return view('/dashboard/inventario_dashboard');
     });
-    Route::get('/inventario_productos', function () {
+    Route::get('/inventario', function () {
         if(!isLogged())    return redirect('/');
         return view('inventario');
     });
@@ -102,10 +102,14 @@ use Illuminate\Support\Facades\Route;
         return view('prueba_validacion');
     });
 
-    Route::get('/registro_usuario', function () {
+  
+
+    Route::get('/registro_usuario2', function () {
         if(!isLogged())    return redirect('/');
-        return view('registro_usuario');
+        return view('registro_usuario2');
     });
+
+
 
     Route::get('/griferia', function () {
         if(!isLogged())    return redirect('/');
@@ -125,7 +129,13 @@ Route::get('/registro_ventas', function () {
     return view('registro_ventas');
 });
 
+Route::get('/listar_entradas', function () {
+    return view('listar_entradas');
+});
 
+Route::get('/login2', function () {
+    return view('login2');
+});
 
 
 
