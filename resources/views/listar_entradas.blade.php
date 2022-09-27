@@ -21,7 +21,7 @@
 
         <div class="row">
             <div class="col-4">
-                <div class="d-flex">
+                <div class="d-flex justify-content-around">
                     <label>Fecha Inicio</label>
                     <input type="date" class="form-control" placeholder="Fecha Inicio" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 </div>
@@ -37,7 +37,7 @@
             <div class="col-4">
                 <button type="button" class="btn btn-secondary">Buscar</button>
             </div>
-
+<hr>
 
             <div class="d-flex justufy-content-start row">
                 <div class="col-3">
@@ -47,16 +47,17 @@
                 </div>
 
 
-                <div class="col-3">
+                <div class=" fecha_registro col-4">
                     <div class="d-flex justify-content-start">
 
                         <input type="text" class="form-control" placeholder="Fecha de Registro" aria-label="Recipient's username" aria-describedby="basic-addon2">
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="d-flex">
+                <div class="d-flex col-2">
+                    <div class="col">
                         <button type="button" class="btn btn-secondary">Buscar</button>
-                        <div class="col-3">
+                        </div>
+                        <div class="col-2">
                             <button type="button" class="btn btn-danger">Borrar</button>
                         </div>
                     </div>

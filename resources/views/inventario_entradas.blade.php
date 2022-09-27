@@ -74,7 +74,7 @@
        <div class="col">
        <input type="text" class="form-control" placeholder="Descripción Producto" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
        </div>
-
+<br>
        <div class="col">
        <button type="button" class="btn btn-secondary">Buscar</button>
        </div>
@@ -89,7 +89,11 @@
 
        <div class="col">
        <select class="form-select" size="1" aria-label="size 3 select example">
-       <option selected>Cantidad</option>
+       </div>
+<br>
+<br>
+<div class="col">
+  <option selected>Cantidad</option>
   <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
@@ -101,7 +105,7 @@
 
 
     </div>
-
+    </div>
     <br>        
 
     <span class="placeholder col-12 bg-secondary"></span>

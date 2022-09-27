@@ -58,11 +58,7 @@ use Illuminate\Support\Facades\Route;
         if(!isLogged())    return redirect('/');
         return view('usuarios');
     });
-    Route::get('/usuario_registro', function () {
-        if(!isLogged())    return redirect('/');
-        return view('registro_usuario');
-    });
-
+   
 
     Route::get('/marmoleria', function () {
         if(!isLogged())    return redirect('/');

@@ -73,7 +73,7 @@
 
                 <div class="btn btn-secondary text-black fw-semibold shadow-sm w-100 mt-5"id="login">Registrar</div>
                    
-                
+            
             </div>
         </div>
     </div>
