@@ -20,11 +20,11 @@ body{
 
 
 
-    <div class="contenedorMenu" style=" height:450px">
+    <div class="contenedorMenu" style=" height:420px">
         <div class="contenedorMenu  col-2">
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:1px">
-                    <a href="#" class="button">
+                    <a href="./registro_usuario2" class="button">
                         <img src="./img/usuarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
                     </a>
                     <div class="card-body">
@@ -56,10 +56,11 @@ body{
 <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
-                    <img src=" ./img/logisticaNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
-                    <div class="card-body">
+                    <a href="./logistica_movimientos" class="button">
+                        <img src=" ./img/logisticaNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">  
+                        </a>
+                        <div class="card-body">
                         <h6>LOGISTICA</h6>
-                        <a href="#"></a>
                     </div>
                 </div>
             </div>
@@ -100,7 +101,7 @@ body{
         </div>
     <!--/div-->
     </div>    
-    <footer class="py-5 bg-dark">
+    <footer class="py-4 bg-dark">
         <?php include(app_path()."/../resources/views/template/footer.php");?>
     </footer>
 

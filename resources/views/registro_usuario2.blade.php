@@ -14,7 +14,7 @@
 
 
 <body class=" ">
-    <div class="contenedor d-flex justify-content-center aling-items-center vh-90 mt-4">
+    <div class="contenedor d-flex justify-content-center aling-items-center mt-4">
         <div class="bg-white p-5  text-secondary border rounded-5 " style="width:25rem">
             <div class="d-flex justify-content-center">
                 <img src="./img/registro.png" class="img-fluid2" alt="Sample image" style="height: 7rem">
@@ -83,12 +83,18 @@
 
 
 
-    <footer class="py-5 bg-dark mt-4">
+    <footer class="py-4 bg-dark mt-4">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
+
+  
+    
 
 
 
 </body>
 
 </html>
+
+
+

@@ -13,8 +13,8 @@
 </header>
 
 
-<body class=" ">
-    <div class="contenedor d-flex justify-content-center aling-items-center vh-80 mt-4">
+<body class=" contenedorLogin">
+    <div class="contenedor d-flex justify-content-center aling-items-center mt-4"style= "height:490px">
         <div class="bg-white p-5  text-secondary rounded-5 " style="width:25rem">
             <div class="d-flex justify-content-center">
                 <img src="./img/usuariofreepik.png" class="img-fluid" alt="Sample image" style="height: 7rem">
@@ -22,7 +22,7 @@
             <div class="d-flex justify-content-center fs-1 fw-bold">
                 Login
             </div>
-            <div class="input-group mt-3">
+            <div class="input-group mt-2">
                 <div class="input-group-text "id="bgLogin">
                     <i class="fa-solid fa-user"></i>
                 </div>
@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <div class="input-group mt-3">
+            <div class="input-group mt-2">
                 <div class="input-group-text"id="bgLogin">
                     <i class="fa-solid fa-lock"></i>
                 </div>
@@ -64,7 +64,7 @@
 
 
 
-    <footer class="py-5 bg-dark mt-4">
+    <footer class="py-4 bg-dark mt-4">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
 

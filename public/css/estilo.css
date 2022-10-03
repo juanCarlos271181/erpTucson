@@ -1,6 +1,4 @@
-*{
-    margin: 0;
-}
+
 
 body{
     background:  #d8e2dc;
@@ -70,7 +68,8 @@ h4{
 }
 
 .homeBg{
-    background-color:#000000;
+    background-color:black;
+   
 }
 
 
@@ -212,20 +211,30 @@ height: 100%;
 .modal-body p{
     margin-left: 40px;
     text-decoration: none;
-    margin-bottom: 10px;
+    
+   
 }
 .modal-body img{
     margin-right: 50px;
     text-decoration: none;
+   
     
 }
 .card-img-top{
    color: aliceblue;
+   margin-left: 30px;
+}
+
+
+.modal-footer{
+    margin-bottom: 30px;
 }
 
 #nuevoImg{
     color: #5F7161;
     margin-right: 30px;
+    
+    
    
 }
 
@@ -235,14 +244,19 @@ height: 100%;
 
 
 
-.modal-footer{
-    margin-bottom: 40px;
-}
+
 
 .link p{
-    color: #5F7161; 
+    color: #4f5351; 
    font-family:'Roboto Mono', monospace;  
+   margin-top: 10px;
    
+   
+}
+.linkSalida p{
+    color: #4f5351; 
+    font-family:'Roboto Mono', monospace;  
+    margin-top: 10px;
 }
 
 .input-group-text{
@@ -275,7 +289,7 @@ height: 100%;
 
 .nav-link{
     font-family:'Roboto Mono', monospace;  
-    font-size: 25px; 
+    font-size: 20px; 
     color:#FCFFE7;
 }
 
@@ -339,8 +353,36 @@ height: 100%;
     padding:10px
 }
 
-.form-control{
-    margin-left: 30px;
+
+
+.soporte{
+    display: flex;
+    justify-content: start;
+    height: 60px;
+    cursor: pointer;
+    position: fixed;
+    
+   
+}
+
+
+
+.contenedorImg{
+    height:70px;
+}
+.contenedorSoporte{
+    display: flex;
+    justify-content: start;
+    margin-left: 100%;
+    margin-top: 30px;
+}
+
+.container{
+    height: 100px;
+}
+
+.contenedorLogin{
+    height: 60px;
 }
 
 

@@ -133,6 +133,10 @@ Route::get('/login2', function () {
     return view('login2');
 });
 
+Route::get('/logistica_movimientos', function () {
+    return view('logistica_movimientos');
+});
+
 
 
 
