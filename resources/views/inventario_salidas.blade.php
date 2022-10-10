@@ -1,117 +1,115 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>        
-        <?php include(app_path()."/../resources/views/template/head.php");?>
-    </head>
+
+<head>
+    <?php include(app_path() . "/../resources/views/template/head.php"); ?>
+</head>
+
 <body>
 
 
-<header>
-    <?php include(app_path()."/../resources/views/template/header.php");?>
-</header>
+    <header>
+        <?php include(app_path() . "/../resources/views/template/header.php"); ?>
+    </header>
 
 
-<br>
-<div class="tituloEntrada">
-      <h4>Nueva Salida</h4>
-</div>
-<br>
-
-<div class="container">
-        
-        <div class="row">
- 
- 
-        <div class="col-4">
-        <input type="text" class="form-control" placeholder="N° de Documento:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
-        </div>
-         
-        <div class="col-4">
-        <input type="date" class="form-control" placeholder="Fecha de Registro:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
-        </div>
-
-                
-</div>
-
-<br>
- 
-
-    <hr>
+    <br>
+    <div class="tituloEntrada">
+        <h4>Nueva Salida</h4>
+    </div>
+    <br>
 
     <div class="container">
-        
+
         <div class="row">
- 
- 
-        <div class="col">
-        <input type="text" class="form-control" placeholder="Documento Cliente:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
+
+
+            <div class="col-4">
+                <label>N° de Documento</label>
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            </div>
+
+            <div class="col-4">
+                <label>Fecha de Registro</label>
+                <input type="date" class="form-control" placeholder="Fecha de Registro:" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            </div>
+
+
         </div>
-         
-        <div class="col">
-        <input type="text" class="form-control" placeholder="Nombre Cliente:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
+
+
+
+        <hr>
+
+        <div class="d-flex justify-content-start containerSalida">
+
+            <div class="row">
+                <div class="col-4">
+                    <label>Documento Cliente</label>
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+
+                <div class="col-4">
+                    <label>Nombre del Cliente</label>
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+
+                <div class="col-4" id="buscarCliente">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <label></label>
+                    <input id="username" type="text" class="form-control" placeholder="Buscar" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div> 
         </div>
+    </div>
 
-        <div class="col">
-        <button type="button" class="btn btn-secondary">Buscar</button>
-        </div>
-
-                
-</div>
-
-
-   <br>  
 <br>
-  
-</div>
+<br>
+<br>
+
+<div class="d-flex justify-content-start containerSalida2">
+    <div class="row">
+                <div class="col-4">
+                    <label>Código Producto</label>
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+
+                <div class="col-2">
+                    <label>Articulos</label>
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+
+                <div class="col-2" id="buscarArticulos">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <label></label>
+                    <input id="username" type="text" class="form-control" placeholder="Buscar" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="col-2">
+                    <label>Stock</label>
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+                <div class="col-2">
+                    <label></label>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Cantidad</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                </div>
 
             </div>
-           
-
-     </div>
-     
-
-    <div class="container">
-        
-       <div class="row">
+            </div>
 
 
-       <div class="col">
-       <input type="text" class="form-control" placeholder="Código de Producto:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
-       </div>
-        
-       <div class="col">
-       <input type="text" class="form-control" placeholder="Descripción Producto:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
-       </div>
 
-       <div class="col">
-       <button type="button" class="btn btn-secondary">Buscar</button>
-       </div>
 
-       <div class="col">
-       <input type="text" class="form-control" placeholder="Stock:" aria-label="Recipient's username" aria-describedby="basic-addon2"> 
-       </div>
-      
-
-       <div class="col">
-       <select class="form-select" size="1" aria-label="size 3 select example">
-       <option selected>Cantidad:</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-
-        </select>
-        </div>
-        
-       </div>
-      
-
-    </div>
-   
-
-    <br>        
+    <br>
+    <br>
+    <br>
 
     <span class="placeholder col-12 bg-secondary"></span>
-<table class=" table table-striped table-hover">
+    <table class=" table table-striped table-hover">
         <thead>
             <tr class="table-primary">
                 <th scope="col">Código</th>
@@ -119,7 +117,7 @@
                 <th scope="col">Cantidad</th>
                 <th scope="col">Precio Venta</th>
                 <th scope="col">Sub Total</th>
-                
+
             </tr>
         </thead>
         <tbody>
@@ -128,72 +126,76 @@
                 <td>Rosseto 57x57</td>
                 <td>24JK</td>
                 <td>420.000<img class="imagen" src=""></td>
-                <td><img class="imagen"src=""></td>
+                <td><img class="imagen" src=""></td>
             </tr>
             <tr>
                 <th scope="row"></th>
                 <td></td>
                 <td></td>
                 <td><img class="imagen" src=""></td>
-                <td><img class="imagen"src=""></td>
+                <td><img class="imagen" src=""></td>
             </tr>
             <tr>
                 <th scope="row"></th>
                 <td colspan=""></td>
                 <td></td>
                 <td><img class="imagen" src=""></td>
-                <td><img class="imagen"src=""></td>
+                <td><img class="imagen" src=""></td>
             </tr>
             <tr>
                 <th scope="row"></th>
                 <td colspan=""></td>
                 <td></td>
-                <td><img class="imagen"src=""></td>
-                <td><img class="imagen"src=""></td>
+                <td><img class="imagen" src=""></td>
+                <td><img class="imagen" src=""></td>
             </tr>
             <tr>
                 <th scope="row"></th>
                 <td colspan=""></td>
                 <td></td>
-                <td><img class="imagen"src=""></td>
-                <td><img class="imagen"src=""></td>
+                <td><img class="imagen" src=""></td>
+                <td><img class="imagen" src=""></td>
             </tr>
             <tr>
                 <th scope="row"></th>
                 <td colspan=""></td>
                 <td></td>
-                <td><img class="imagen"src=""></td>
-                <td><img class="imagen"src=""></td>
+                <td><img class="imagen" src=""></td>
+                <td><img class="imagen" src=""></td>
             </tr>
             <tr>
                 <th scope="row"></th>
                 <td colspan=""></td>
                 <td></td>
-                <td><img class="imagen"src=""></td>
-                <td><img class="imagen"src=""></td>
+                <td><img class="imagen" src=""></td>
+                <td><img class="imagen" src=""></td>
             </tr>
-            
+
             </tr>
         </tbody>
     </table>
 
-
-            <div class="text-center text-lg-center mt-4 pt-2">
-              <button type="button" id="login" class="btn btn-primary btn-lg"                
-                style="padding-left: 2.5rem; padding-right: 2.5rem;">Guardar Salida</button>
-            </div>
+<div class="total">
+<h4>Total:</h4>
+</div>
 
 
-
-<br>
-<br>
-
-    
+    <div class="text-center text-lg-center mt-4 pt-2">
+        <button type="button" id="login" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;">Guardar Salida</button>
+    </div>
 
 
-<footer class="py-4 bg-dark">
-    <?php include(app_path()."/../resources/views/template/footer.php");?>
-</footer>
+
+    <br>
+    <br>
+
+
+
+
+    <footer class="py-4 bg-dark">
+        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
+    </footer>
 
 </body>
+
 </html>

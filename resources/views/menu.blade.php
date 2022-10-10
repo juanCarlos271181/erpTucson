@@ -26,12 +26,16 @@
                         <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModalEntrada"> <img src="./img/freeEntrada.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Entradas</button>
                         <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModalSalida"> <img src="./img/freeSalida.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Salidas</button>
                         <a href="./inventario">
-                            <button type="button" class="btnMenu" data-bs-toggle="" data-bs-target=""><img src="./img/freeProductos.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Productos</button>
+                            <button type="button" class="btnMenu" data-bs-toggle="" data-bs-target=""><img src="./img/productosfree.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Productos</button>
                         </a>
                     </div>
                     <div class="col-4 d-grid gap-4">
+                    <a href="./toma_inventarios">
                         <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/freeAlmacen.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Toma Inventario</button>
-                        <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/freeMovimiento.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Movimientos</button>
+                    </a>
+                        <a href="./logistica_movimientos">
+                        <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/movimientosfree.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Movimientos</button>
+                        </a>
                         <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/freeConfiguracion.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Configuracion</button>
                     </div>
                 </div>
@@ -109,7 +113,7 @@
                                         <p>Nuevo</p>
                                     </div>
                                 </a>
-                                <a href="./inventario_listar">
+                                <a href="./listar_salidas">
                                     <img src="./img/freeListar.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                                     <div class="linkSalida">
                                         <p>Listar</p>

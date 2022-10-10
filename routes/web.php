@@ -137,6 +137,14 @@ Route::get('/logistica_movimientos', function () {
     return view('logistica_movimientos');
 });
 
+Route::get('/listar_salidas', function () {
+    return view('listar_salidas');
+});
+
+Route::get('/toma_inventarios', function () {
+    return view('toma_inventarios');
+});
+
 
 
 

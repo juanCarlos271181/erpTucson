@@ -23,7 +23,7 @@ body{
     <div class="contenedorMenu" style=" height:420px">
         <div class="contenedorMenu  col-2">
             <div class="col-12" id="card_usuario">
-                <div class="card" style="width:10rem; padding:1px">
+                <div class="card" style="width:10rem; padding:10px">
                     <a href="./registro_usuario2" class="button">
                         <img src="./img/usuarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
                     </a>
@@ -56,7 +56,7 @@ body{
 <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
-                    <a href="./logistica_movimientos" class="button">
+                    <a href="" class="button">
                         <img src=" ./img/logisticaNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">  
                         </a>
                         <div class="card-body">
