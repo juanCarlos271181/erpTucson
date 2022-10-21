@@ -1,7 +1,7 @@
 
 
 body{
-    background:  #d8e2dc;
+    background:  #F9FCFB;
 }
 .dashboarContenedor{
     width: 100%;
@@ -67,10 +67,7 @@ h4{
      
 }
 
-.homeBg{
-    background-color:black;
-   
-}
+
 
 
 
@@ -159,9 +156,19 @@ height: 100%;
 }
 
 #bgLogin{
-    background-color:#d8e2dc;   
+    background:#161a17;   
    height: 400px;
 }
+
+#bgRegistro{
+    background: #D8D9CF;    
+}
+
+#containerLogin{
+    background: #D8D9CF; 
+}
+
+
 .btnMenu{
     border: 3px solid rgba(100,100,100,0.1);
     padding: 20px;
@@ -271,7 +278,7 @@ height: 100%;
 }
 
 #login{
-    background:#4B7BE5 ;  
+    background:# ;  
     font-family:'Roboto Mono', monospace;   
 }
 
@@ -291,7 +298,7 @@ height: 100%;
 .nav-link{
     font-family:'Roboto Mono', monospace;  
     font-size: 20px; 
-    color:#FCFFE7;
+    color:#ffffff;
 }
 
 .navbar-brand{
@@ -303,11 +310,6 @@ height: 100%;
 .fecha_registro{
     margin-left: 175px;
 }
-
-
-
-
-
 
 
 .tituloEntrada{
@@ -473,9 +475,61 @@ margin-left: 390px;
     background: #4B7BE5;
 }
 
-#btnSalida{
-   margin-bottom: 40px;
+#navBar{
+    background: #576F72;
 }
+
+#bgFooter{
+    background: #576F72; 
+    height: 90px;  
+}
+
+.homeBg{
+    background-color:#F9FCFB;
+   
+}
+
+#bgfooterLogin{
+    background: #576F72;  
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+
+#bgHome{
+    margin-top: 90px;
+}
+
+.tituloLogo{
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 20px;
+}
+
+.form-label{
+    color:#161a17;
+    
+}
+
+.form{
+    padding: 60px;
+}
+
+#contenedorRegistro {
+    background: #161a17;
+}
+
+#tituloRegistro{
+    color: #161a17;
+}
+
+#botoRegistro{
+    color: #161a17;
+    
+}
+
 
 
 

@@ -96,11 +96,10 @@
 
 
 
-    <footer class="py-5 bg-dark">
-    <?php include(app_path()."/../resources/views/template/footer.php");?>
-
-
+    <footer class="py-4 mt-4"id="bgfooterLogin">
+        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
-   
+
 </body>
+
 </html>

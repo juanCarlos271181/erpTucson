@@ -13,9 +13,9 @@
     </header>
     <br>
 
-    
 
-    <div class="container"style=" height:450px">
+
+    <div class="container" style=" height:450px">
 
         <form>
 
@@ -25,16 +25,15 @@
 
                         <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModalEntrada"> <img src="./img/freeEntrada.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Entradas</button>
                         <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModalSalida"> <img src="./img/freeSalida.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Salidas</button>
-                        <a href="./inventario">
-                            <button type="button" class="btnMenu" data-bs-toggle="" data-bs-target=""><img src="./img/productosfree.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Productos</button>
-                        </a>
+                        <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModalProducto"><img src="./img/productosfree.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Productos</button>
+
                     </div>
                     <div class="col-4 d-grid gap-4">
-                    <a href="./toma_inventarios">
-                        <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/freeAlmacen.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Toma Inventario</button>
-                    </a>
+                        <a href="./toma_inventarios">
+                            <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/freeAlmacen.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Toma Inventario</button>
+                        </a>
                         <a href="./logistica_movimientos">
-                        <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/movimientosfree.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Movimientos</button>
+                            <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/movimientosfree.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Movimientos</button>
                         </a>
                         <button type="button" class="btnMenu" data-bs-toggle="modal" data-bs-target="#miModal"> <img src="./img/freeConfiguracion.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="nuevoImg"> Configuracion</button>
                     </div>
@@ -59,7 +58,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content ">
                         <div class="modal-header">
-                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <h5 class="modal-title" id=modalTitle>Entradas</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                         </div>
                         <div class=" d-flex justufy-content-center modal-body text-decoration-none" style="height:100px">
@@ -102,11 +101,11 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <h5 class="modal-title" id=modalTitle>Salidas</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                         </div>
                         <div class="modal-body">
-                            <div class=" d-flex justufy-content-center modal-body text-decoration-none" style="height:80px">
+                            <div class=" d-flex justify-content-center modal-body text-decoration-none" style="height:80px">
                                 <a href="./inventario_salidas">
                                     <img src="./img/freeNuevo.png" class="card-img-top2 imagen20" alt="imagen de tarjeta" id="nuevoImg">
                                     <div class="linkSalida">
@@ -125,8 +124,6 @@
                                         <p>Buscar</p>
                                     </div>
                                 </a>
-
-
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -141,32 +138,44 @@
 
 
 
-            <div class="modal fade" id="ModalSalida" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+            <div class="modal fade" id="miModalProducto" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id=modalTitle>Selecione una Opcion</h5>
+                            <h5 class="modal-title" id=modalTitle>Productos</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                         </div>
                         <div class="modal-body">
-                            <a href="./inventario_salidas">
-                                <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
-                            </a>
-                            <a href="./inventario_listar">
-                                <i class="fa-solid fa-list-check fa-2x"></i>
-                            </a>
-                            <a href="./inventario_salidas">
-                                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-                            </a>
+                            <div class=" d-flex justify-content-center modal-body text-decoration-none" style="height:80px ">
+                                <a href="./inventario_salidas">
+                                    <img src="./img/freeNuevo.png" class="card-img-top2 imagen20" alt="imagen de tarjeta" id="nuevoImg">
+                                    <div class="linkSalida">
+                                        <p>Nuevo</p>
+                                    </div>
+                                </a>
+                                <a href="./">
+                                    <img src="./img/freeDonload.png" class="card-img-top2 imagen20" alt="imagen de tarjeta" id="nuevoImg">
+                                    <div class="linkSalida">
+                                        <p>Cargar</p>
+                                    </div>
+                                </a>
+                                <a href="./inventario">
+                                    <img src="./img/freeListar.png" class="card-img-top2 imagen20" alt="imagen de tarjeta" id="nuevoImg">
+                                    <div class="linkSalida">
+                                        <p>Listar</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
                         </div>
                     </div>
                 </div>
-
-
             </div>
+
+
+
 
 
 
@@ -308,9 +317,12 @@
 
     </div>
     </div>
-    <footer class="py-5 bg-dark">
+
+    <footer class="py-4 mt-4"id="bgfooterLogin">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
+
+
 
 </body>
 

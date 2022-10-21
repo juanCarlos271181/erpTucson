@@ -145,6 +145,10 @@ Route::get('/toma_inventarios', function () {
     return view('toma_inventarios');
 });
 
+Route::get('/menu_usuarios', function () {
+    return view('menu_usuarios');
+});
+
 
 
 

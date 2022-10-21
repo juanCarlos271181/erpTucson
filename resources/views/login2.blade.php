@@ -14,8 +14,8 @@
 
 
 <body class=" contenedorLogin">
-    <div class="contenedor d-flex justify-content-center aling-items-center mt-4"style= "height:490px">
-        <div class="bg-white p-5  text-secondary rounded-5 " style="width:25rem">
+    <div class="contenedor d-flex justify-content-center aling-items-center "style= "height:490px">
+        <div class="p-5 mt-4 text-dark rounded-2"  style="width:25rem"id="containerLogin">
             <div class="d-flex justify-content-center">
                 <img src="./img/usuariofreepik.png" class="img-fluid" alt="Sample image" style="height: 7rem">
             </div>
@@ -40,17 +40,16 @@
                 </div>
             </div>
             
-            <div class="d-flex justify-content-around mt-5">
+            <div class="d-flex justify-content-around mt-4">
                 <div class="d-flex aling-items-center gap-2">
                     <input class="form-check-input" type="checkbox"/>
                     <div style="font-size: 0.9rem"> Recordar contraseña</div>
                 </div>
                 <div>
-                    <a href="./registro_usuario2" class="text-decoration-none text-info fw-semibold fst-italic">Registrarme?</a>
+                    <a href="./registro_usuario2" class="text-decoration-none text-dark fw-semibold fst-italic">Registrarme?</a>
                 </div>
                 </div>
-                <br>
-                <br>
+               <br>
 
                 <div class="btn btn-secondary text-black fw-semibold shadow-sm w-100"id="login">Login</div>
                 
@@ -58,13 +57,15 @@
             </div>
         </div>
     </div>
+<br>
+<br>
 
 
 
 
 
 
-    <footer class="py-4 bg-dark mt-4">
+    <footer class="py-2 mt-4"id="bgfooterLogin">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
 

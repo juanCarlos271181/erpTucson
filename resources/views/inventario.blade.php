@@ -96,14 +96,15 @@
                             </table>
                             <div id="qrcode"></div>
                         </div>
+                        </div>
 
 
-                        <footer class="py-5 bg-dark">
+                        <footer class="py-4 mt-4" id="bgfooterLogin">
                             <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
                         </footer>
 
 
-</body>
 
+</body>
 
 </html>

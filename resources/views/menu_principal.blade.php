@@ -11,9 +11,7 @@
     <!--div class="row" style="heightx:400px"-->
 <style>
 
-body{
-    background: lightgray;
-}
+
 
 </style>
 
@@ -24,7 +22,7 @@ body{
         <div class="contenedorMenu  col-2">
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:10px">
-                    <a href="./registro_usuario2" class="button">
+                    <a href="./menu_usuarios" class="button">
                         <img src="./img/usuarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
                     </a>
                     <div class="card-body">
@@ -90,7 +88,7 @@ body{
         
         </div> 
 
-
+        
      
 <br>
 
@@ -101,12 +99,16 @@ body{
         </div>
     <!--/div-->
     </div>    
-    <footer class="py-4 bg-dark">
-        <?php include(app_path()."/../resources/views/template/footer.php");?>
+   
+    <footer class="py-4 mt-4"id="bgfooterLogin">
+        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
 
-<body>
-   
+
+
+</body>
+
+</html>
 
     
 

@@ -146,7 +146,7 @@
 
 
 
-    <footer class="py-4 bg-dark">
+    <footer class="py-4">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
 

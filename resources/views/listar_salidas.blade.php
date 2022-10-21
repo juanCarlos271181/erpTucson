@@ -35,18 +35,16 @@
             </div>
 
             <div class="col-4 mt-3" id="btnSalida">
-                <button type="button" class="btn btn-primary">Buscar</button>
+                <button type="button" class="btn btn-secondary">Buscar</button>
             </div>
 
 
-
-
-            <div class="col-4 mt-3">
+            <div class="col-2 mt-3">
                 <label></label>
                 <button type="button" class="btn btn-success">Descargar Excel</button>
             </div>
 
-            <div class="col-3 ">
+            <div class="col-2 ">
                 <label>Buscar por:</label>
                 <select class="form-select" id="">
                     <option selected>Codigo de Producto:</option>
@@ -57,10 +55,10 @@
                 </select>
             </div>
 
-            <div class="col-3 mt-4">
-                <input type="text" class="form-control" placeholder="Fecha de Registro:" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="col-3 mt-4">
-                <button type="button" class="btn btn-primary">Buscar</button>
+            <div class="col-2 mt-4">
+                <input type="date" class="form-control" placeholder="Fecha de Registro:" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="col-2 mt-4">
+                <button type="button" class="btn btn-secondary">Buscar</button>
                 </div>
             </div>
 
@@ -126,9 +124,11 @@
 
 
 
-    <footer class="py-4 bg-dark">
+    <footer class="py-4 mt-4"id="bgfooterLogin">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
+
+
 
 </body>
 

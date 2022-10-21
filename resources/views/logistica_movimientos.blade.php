@@ -62,10 +62,10 @@
                     <option value="3">Intralog</option>
                 </select>
 
-                <div class="btn-group " role="group" aria-label="Basic mixed styles example">
-                    <button type="button" class="btn btn-danger">Agregar</button>
+                <div class="btn-group gap-2" role="group" aria-label="Basic mixed styles example">
+                    <button type="button" class="btn btn-success">Agregar</button>
                     <button type="button" class="btn btn-warning">Modificar</button>
-                    <button type="button" class="btn btn-success">Borrar</button>
+                    <button type="button" class="btn btn-danger">Borrar</button>
                 </div>
             </div>
         </div>
@@ -111,15 +111,7 @@
 
 
 
-
-
-
-
-
-
-
-
-<footer class="py-4 bg-dark mt-4">
+<footer class="py-4 mt-4" id="bgfooterLogin">
     <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
 </footer>
 

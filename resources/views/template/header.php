@@ -1,4 +1,4 @@
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navBar">
             <div class="container">
             <div style="display:inline">
                 

@@ -61,7 +61,7 @@
   
     <br>
     
-    <footer class="py-5 bg-dark">
+    <footer class="py-5">
       <?php include(app_path()."/../resources/views/template/footer.php");?>
     </footer>  
 

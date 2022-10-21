@@ -57,49 +57,54 @@
                 <div class="col-4" id="buscarCliente">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <label></label>
-                    <input id="username" type="text" class="form-control" placeholder="Buscar" aria-label="Username" aria-describedby="basic-addon1">
+                    <div class="col">
+                        <button type="button" class="btn btn-secondary">Buscar</button>
+                    </div>
                 </div>
-            </div> 
+            </div>
         </div>
     </div>
 
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
 
-<div class="d-flex justify-content-start containerSalida2">
-    <div class="row">
-                <div class="col-4">
-                    <label>Código Producto</label>
-                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </div>
+    <div class="d-flex justify-content-start containerSalida2">
+        <div class="row">
+            <div class="col-4">
+                <label>Código Producto</label>
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            </div>
 
-                <div class="col-2">
-                    <label>Articulos</label>
-                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </div>
+            <div class="col-2">
+                <label>Articulos</label>
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            </div>
 
-                <div class="col-2" id="buscarArticulos">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <label></label>
-                    <input id="username" type="text" class="form-control" placeholder="Buscar" aria-label="Username" aria-describedby="basic-addon1">
+            <div class="col-2" id="buscarArticulos">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <label></label>
+                <div class="col">
+                    <button type="button" class="btn btn-secondary">Buscar</button>
                 </div>
-                <div class="col-2">
-                    <label>Stock</label>
-                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </div>
-                <div class="col-2">
-                    <label></label>
-                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            </div>
+
+            <div class="col-2">
+                <label>Stock</label>
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            </div>
+            <div class="col-2">
+                <label></label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
                     <option selected>Cantidad</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                 </select>
-                </div>
+            </div>
 
-            </div>
-            </div>
+        </div>
+    </div>
 
 
 
@@ -175,13 +180,13 @@
         </tbody>
     </table>
 
-<div class="total">
-<h4>Total:</h4>
-</div>
+    <div class="total">
+        <h4>Total:</h4>
+    </div>
 
 
     <div class="text-center text-lg-center mt-4 pt-2">
-        <button type="button" id="login" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;">Guardar Salida</button>
+        <button type="button" id="login" class="btn btn-secondary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;">Guardar Salida</button>
     </div>
 
 
@@ -192,9 +197,11 @@
 
 
 
-    <footer class="py-4 bg-dark">
+    <footer class="py-4 mt-4" id="bgfooterLogin">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
+
+
 
 </body>
 
