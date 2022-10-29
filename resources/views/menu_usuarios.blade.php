@@ -31,11 +31,11 @@
         <br>
         <div class="col-12" id="card_inventario">
                 <div class="card" style="width:10rem; padding:6px">
-                    <a href="./registro_usuario2" class="button">
+                    <a href="./" class="button">
                         <img src=" ./img/freeCrearUsuario.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     </a>
                     <div class="card-body">
-                        <h6>Tipos usuario</h6>     
+                        <h6>Crear usuarios</h6>     
                     </div>
                 </div>
             </div>

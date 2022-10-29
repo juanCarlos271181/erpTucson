@@ -105,7 +105,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                         </div>
                         <div class="modal-body">
-                            <div class=" d-flex justify-content-center modal-body text-decoration-none" style="height:80px">
+                            <div class=" d-flex justify-content-center modal-body text-decoration-none" style="height:90px">
                                 <a href="./inventario_salidas">
                                     <img src="./img/freeNuevo.png" class="card-img-top2 imagen20" alt="imagen de tarjeta" id="nuevoImg">
                                     <div class="linkSalida">

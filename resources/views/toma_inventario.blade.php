@@ -83,14 +83,6 @@
 
 
 
-
-
-
-
-
-
-
-
 <span class="placeholder col-12 bg-secondary"></span>
 
 <table class=" table table-striped table-hover">
@@ -129,9 +121,10 @@
         </tbody>
     </table>
 
+    
 
-
-    <footer class="py-4 mt-4"id="bgfooterLogin">
+    
+    <footer class="py-4 mt-4" id="bgfooterLogin">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
 

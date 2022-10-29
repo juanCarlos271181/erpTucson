@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <?php include(app_path()."/../resources/views/template/head.php");?>    
-    </head>
-    <body>
-        <header>
-            <?php include(app_path()."/../resources/views/template/header.php");?>       
-        </header>
+
+<head>
+    <?php include(app_path() . "/../resources/views/template/head.php"); ?>
+</head>
+
+<body>
+    <header>
+        <?php include(app_path() . "/../resources/views/template/header.php"); ?>
+    </header>
     <br>
     <!--div class="row" style="heightx:400px"-->
-<style>
+    <style>
 
 
 
-</style>
+    </style>
 
 
 
@@ -23,14 +25,14 @@
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:10px">
                     <a href="./menu_usuarios" class="button">
-                        <img src="./img/usuarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
+                        <img src="./img/usuarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta" id="img_tarjeta">
                     </a>
                     <div class="card-body">
                         <h6>USUARIOS</h6>
                     </div>
                 </div>
             </div>
-        <br>
+            <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
                     <img src="./img/ventasNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
@@ -40,24 +42,24 @@
                     <a href="#"></a>
                 </div>
             </div>
-        <br>
+            <br>
             <div class="col-12" id="card_inventario">
                 <div class="card" style="width:10rem; padding:6px">
                     <a href="./menu" class="button">
                         <img src=" ./img/inventarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     </a>
                     <div class="card-body">
-                        <h6>INVENTARIO</h6>     
+                        <h6>INVENTARIO</h6>
                     </div>
                 </div>
             </div>
-<br>
+            <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
                     <a href="" class="button">
-                        <img src=" ./img/logisticaNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">  
-                        </a>
-                        <div class="card-body">
+                        <img src=" ./img/logisticaNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                    </a>
+                    <div class="card-body">
                         <h6>LOGISTICA</h6>
                     </div>
                 </div>
@@ -72,35 +74,44 @@
                     </div>
                 </div>
             </div>
-        <br>
-            <div class="col-12">
-                <div class="card" style="width:10rem; padding:10px">
-                    <img src="./img/dashboardNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+            <br>
+
+            <div class="col-12" id="card_inventario">
+                <div class="card" style="width:10rem; padding:6px">
+                    <a href="./dashboard" class="button">
+                        <img src="./img/dashboardNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                    </a>
                     <div class="card-body">
-                        <h6>DASHBOARD</h6>
-                        <a href="#"></a>
+                        <h6>INVENTARIO</h6>
                     </div>
                 </div>
             </div>
-        
-        <br>
-           
-        
-        </div> 
 
-        
-     
-<br>
+
+
+
+
+
+
+
+            <br>
+
+
+        </div>
+
+
+
+        <br>
 
 
 
         <div id="content1" class="contenedorMenu col-9">
             &nbsp;
         </div>
-    <!--/div-->
-    </div>    
-   
-    <footer class="py-4 mt-4"id="bgfooterLogin">
+        <!--/div-->
+    </div>
+
+    <footer class="py-4 mt-4" id="bgfooterLogin">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
     </footer>
 
@@ -109,16 +120,3 @@
 </body>
 
 </html>
-
-    
-
-
-
-
-
-
-
-
-
-
-

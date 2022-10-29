@@ -149,6 +149,10 @@ Route::get('/menu_usuarios', function () {
     return view('menu_usuarios');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
 
 
 
