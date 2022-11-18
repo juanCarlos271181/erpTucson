@@ -17,10 +17,12 @@
 
     </style>
 
+<div class="tituloEntrada">
+      <h4>Menu Principal</h4>
+</div>
 
 
-
-    <div class="contenedorMenu" style=" height:420px">
+    <div class="contenedorMenu" style=" height:300px">
         <div class="contenedorMenu  col-2">
             <div class="col-12" id="card_usuario">
                 <div class="card" style="width:10rem; padding:10px">
@@ -44,7 +46,7 @@
             </div>
             <br>
             <div class="col-12" id="card_inventario">
-                <div class="card" style="width:10rem; padding:6px">
+                <div class="card" style="width:10rem; padding:10px">
                     <a href="./menu" class="button">
                         <img src=" ./img/inventarioNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     </a>
@@ -77,12 +79,12 @@
             <br>
 
             <div class="col-12" id="card_inventario">
-                <div class="card" style="width:10rem; padding:6px">
+                <div class="card" style="width:10rem; padding:10px">
                     <a href="./dashboard" class="button">
                         <img src="./img/dashboardNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     </a>
                     <div class="card-body">
-                        <h6>INVENTARIO</h6>
+                        <h6>DASHBOARD</h6>
                     </div>
                 </div>
             </div>

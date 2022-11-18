@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -27,7 +28,7 @@
                     <i class="fa-solid fa-user"></i>
                 </div>
                 <div>
-                    <input id="username" type="text" class="form-control w-100" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="username" type="text" name="usuario" class="form-control w-100" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>
 
@@ -36,7 +37,7 @@
                     <i class="fa-solid fa-lock"></i>
                 </div>
                 <div>
-                    <input id="password" type="password" class="form-control w-100" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="password" type="password" name="contraseña" class="form-control w-100" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>
             
@@ -57,8 +58,13 @@
             </div>
         </div>
     </div>
-<br>
-<br>
+
+
+
+
+ <br>
+ <br>
+ <br>
 
 
 

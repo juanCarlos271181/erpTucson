@@ -10,12 +10,17 @@
 <body>
     <header>
         <?php include(app_path() . "/../resources/views/template/header.php"); ?>
+
     </header>
     <br>
 
 
+    <div class="tituloEntrada">
+      <h4>Menu Inventarios</h4>
+</div>
+<br>
 
-    <div class="container" style=" height:450px">
+    <div class="container" style=" height:600px">
 
         <form>
 
@@ -63,20 +68,20 @@
                         </div>
                         <div class=" d-flex justufy-content-center modal-body text-decoration-none" style="height:100px">
                             <a href="./inventario_entradas">
-                                <img src="./img/freeNuevo.png" class="card-img-top2 imagen20" alt="imagen de tarjeta" id="nuevoImg">
+                                <img src="./img/freeNuevo.png" class="card-img-topMain imagen20" alt="imagen de tarjeta" id="nuevoImg">
                                 <div class="link">
                                     <p>Nuevo</p>
                                 </div>
                             </a>
 
                             <a href="./listar_entradas">
-                                <img src="./img/freeListar.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                                <img src="./img/freeListar.png" class="card-img-topMain imagen20" alt="imagen de tarjeta">
                                 <div class="link">
                                     <p>Listar</p>
                                 </div>
                             </a>
                             <a href="./inventario">
-                                <img src="./img/freeLupa.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                                <img src="./img/freeLupa.png" class="card-img-topMain imagen20" alt="imagen de tarjeta">
                                 <div class="link">
                                     <p>Buscar</p>
                                 </div>
@@ -107,19 +112,19 @@
                         <div class="modal-body">
                             <div class=" d-flex justify-content-center modal-body text-decoration-none" style="height:90px">
                                 <a href="./inventario_salidas">
-                                    <img src="./img/freeNuevo.png" class="card-img-top2 imagen20" alt="imagen de tarjeta" id="nuevoImg">
+                                    <img src="./img/freeNuevo.png" class="card-img-topMain imagen20" alt="imagen de tarjeta" id="nuevoImg">
                                     <div class="linkSalida">
                                         <p>Nuevo</p>
                                     </div>
                                 </a>
                                 <a href="./listar_salidas">
-                                    <img src="./img/freeListar.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                                    <img src="./img/freeListar.png" class="card-img-topMain imagen20" alt="imagen de tarjeta">
                                     <div class="linkSalida">
                                         <p>Listar</p>
                                     </div>
                                 </a>
                                 <a href="./inventario_salidas">
-                                    <img src="./img/freeLupa.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                                    <img src="./img/freeLupa.png" class="card-img-topMain imagen20" alt="imagen de tarjeta">
                                     <div class="linkSalida">
                                         <p>Buscar</p>
                                     </div>
@@ -300,7 +305,7 @@
 
 
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer mt-4">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                         </div>
                     </div>
@@ -317,6 +322,8 @@
 
     </div>
     </div>
+    
+
 
     <footer class="py-4 mt-4"id="bgfooterLogin">
         <?php include(app_path() . "/../resources/views/template/footer.php"); ?>

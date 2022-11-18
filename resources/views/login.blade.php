@@ -38,7 +38,7 @@
   <label class="form-label" for="username"></label>
 </div>
 
-<div class="input-group mb-2">
+<div class="input-group mb-2 ">
   <span class="input-group-text" id="basic-addon1"><i class="fa fa-expeditedssl" style="font-size:15px"></i></span>
   <input id="password"  type="password" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
   <label class="form-label" for="password"></label>

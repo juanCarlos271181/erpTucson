@@ -12,12 +12,14 @@
 
 
 
-
+    <div class="tituloEntrada">
+      <h4>Menu usuarios</h4>
+</div>
 
     <div class="d-flex  justify-content-center aling-items-center contenedorMenu " style=" height:420px">
         <div class="d-flex justify-content-center aling-items-center contenedorMenu col-2 ">
             <div class="col-12" id="card_usuario">
-                <div class="card" style="width:10rem; padding:10px">
+                <div class="card" style="width:12rem; padding:12px">
                     <a href="./" class="button">
                         <img src="./img/freeListadoUsuario.png" class="card-img-top imagen20" alt="imagen de tarjeta"id="img_tarjeta">
                     </a>
@@ -30,9 +32,9 @@
        
         <br>
         <div class="col-12" id="card_inventario">
-                <div class="card" style="width:10rem; padding:6px">
+                <div class="card" style="width:12rem; padding:12px">
                     <a href="./" class="button">
-                        <img src=" ./img/freeCrearUsuario.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                        <img src=" ./img/freeCrearUsuario.png" class="card-img-topUser imagen20" alt="imagen de tarjeta">
                     </a>
                     <div class="card-body">
                         <h6>Crear usuarios</h6>     
@@ -41,9 +43,9 @@
             </div>
             <br>
             <div class="col-12" id="card_inventario">
-                <div class="card" style="width:10rem; padding:6px">
+                <div class="card" style="width:12rem; padding:12px">
                     <a href="./menu" class="button">
-                        <img src=" ./img/freeRol.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                        <img src=" ./img/freeRol.png" class="card-img-topUser imagen20" alt="imagen de tarjeta">
                     </a>
                     <div class="card-body">
                         <h6>Tipos usuario</h6>     
