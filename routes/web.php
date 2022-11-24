@@ -153,6 +153,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
+Route::get('/menu_ventas', function () {
+    return view('menu_ventas');
+});
+
 
 
 

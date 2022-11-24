@@ -436,7 +436,12 @@ justify-content: center;
 }
 
 .container2{
-    margin-left: 25%;
+    background: #d8d9cf;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+   
 }
 
 
@@ -566,9 +571,7 @@ margin-left: 390px;
     
 }
 
-.form{
-    padding: 60px;
-}
+
 
 #contenedorRegistro {
     background: #161a17;
@@ -583,54 +586,24 @@ margin-left: 390px;
     
 }
 
-#inputUsuario{
-    width: 35%;    
-}
-
-#inputNombre{
-    width: 35%;   
-}
-
-#inputContraseña{
-    width: 36%;
-}
-
-#inputRepetir{
-    width: 36%;   
-}
-
-#inputMail{
-    width: 37%;  
-}
-
-#inputTelefono{
-    width: 37%;    
-}
-
-#btnEnviar{
-    display: flex;
-    justify-items: center;
-    font-family: 'Roboto Mono', monospace; 
-    
-    
-}
-
-
-
-#contenedorCheck{
-    margin-left: 20px;
-}
 
 #contenedorLogin2{
     background: #576F72;
 }
 
-#telefono{
-    width: 110%;
+#contenedorCheck{
+    margin-left: 200px;
 }
-#password2{
-    width: 105%;
+
+
+
+
+#prueba{
+   background-size:50% #d8d9cf; 
 }
+    
+    
+
 
 .card-img-topUser{
     margin-left: 40px;
@@ -649,7 +622,7 @@ margin-left: 390px;
 
 .formulario_grupo-input{
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     
 }
 
@@ -674,9 +647,7 @@ margin-left: 390px;
     
 }
 
-.formulario_validacion-estado{
-    margin-left: 60px;
-}
+
 
 .formulario_mensaje{
     height: 45px;
@@ -689,7 +660,7 @@ margin-left: 390px;
 }
 
 .formulario_mensaje-activo{
-    display: block;
+    display:block;
 }
 
 .formulario_mensaje p{
@@ -697,11 +668,14 @@ margin-left: 390px;
 }
 
 .loginPrueba p{
+
     margin-left: 280px;
     font-size: 16px;
     color: #119200;
     display: none;
 }
+
+
 
 .loginPrueba_p-activo{
 display: block;
@@ -743,6 +717,17 @@ border: 3px solid #E64848;
 
 .formulario_btn{
     width: 100%;
+}
+
+.loginPrueba{
+    font-family: 'Roboto Mono', monospace; 
+    
+}
+
+
+#btnEnviar{
+    width: 400px;
+    margin-left: 10px;
 }
 
 

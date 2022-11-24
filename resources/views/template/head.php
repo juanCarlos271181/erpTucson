@@ -3,6 +3,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/estilo.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,300&display=swap" rel="stylesheet"> 
@@ -30,3 +32,4 @@
         <title>ERP</title>
         
         
+   

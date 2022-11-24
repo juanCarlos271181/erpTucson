@@ -35,13 +35,14 @@
                 </div>
             </div>
             <br>
-            <div class="col-12">
+            <div class="col-12"id="card_inventario">
                 <div class="card" style="width:10rem; padding:10px">
-                    <img src="./img/ventasNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     <div class="card-body">
                         <h6>VENTAS</h6>
                     </div>
-                    <a href="#"></a>
+                    <a href="./menu_ventas"class="button">
+                    <img src="./img/ventasNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
+                    </a>
                 </div>
             </div>
             <br>
