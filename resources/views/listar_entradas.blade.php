@@ -74,57 +74,116 @@
     </div>
     </div>
     </div>
+    <div class="container py-5">
+<div class="row">
 
-    <table class=" table table-striped table-hover">
+    <table class=" table table-dark table-hover"id="tableListar"style="width:100%">
         <thead>
             <tr class="table-primary">
-                <th scope="col">Fecha</th>
-                <th scope="col">Registro</th>
-                <th scope="col">Nota Documento</th>
+                <th scope="col">Fecha de Registro</th>
+                <th scope="col">N° de Documento</th>
                 <th scope="col">Usuario Registrado</th>
                 <th scope="col">Provedor</th>
                 <th scope="col">Monto Total</th>
-                <th scope="col">Código</th>
-                <th scope="col">Descuento Articulo</th>
+                <th scope="col">Código de Producto</th>
+                <th scope="col">Articulo</th>
+                <th scope="col">Img Articulo</th>
+                
 
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="row"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">25/11/2022</th>
+                <td>95934567</td>
+                <td>Admin</td>
+                <td>Ilva</td>
+                <td>2.000.000</td>
+                <td>#CO NE 45X90</td>
+                <td>ILVA PORC.45X90 COMPACT NEUTRAL</td>
+                <td><img class="imagen"src="./img/ceramicos/piazza-bacha.jpg"></td>
             </tr>
             <tr>
-                <th scope="row"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">25/11/2022</th>
+                <td>95934567</td>
+                <td>Admin</td>
+                <td>Ilva</td>
+                <td>2.000.000</td>
+                <td>#CO NE 45X90</td>
+                <td>ILVA PORC.45X90 COMPACT NEUTRAL</td>
+                <td><img class="imagen"src="./img/ceramicos/klaukol-verde.jpg"></td>
             </tr>
             <tr>
-                <th scope="row"></th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">25/11/2022</th>
+                <td>95934567</td>
+                <td>Admin</td>
+                <td>Ilva</td>
+                <td>2.000.000</td>
+                <td>#CO NE 45X90</td>
+                <td>ILVA PORC.45X90 COMPACT NEUTRAL</td>
+                <td><img class="imagen"src="./img/ceramicos/murano1.jpg"></td>
             </tr>
+            <tr>
+                <th scope="row">25/11/2022</th>
+                <td>95934567</td>
+                <td>Admin</td>
+                <td>Ilva</td>
+                <td>2.000.000</td>
+                <td>#CO NE 45X90</td>
+                <td>ILVA PORC.45X90 COMPACT NEUTRAL</td>
+                <td><img class="imagen"src="./img/ceramicos/black.webp"></td>
+            </tr>
+            <tr>
+                <th scope="row">25/11/2022</th>
+                <td>95934567</td>
+                <td>Admin</td>
+                <td>Ilva</td>
+                <td>2.000.000</td>
+                <td>#CO NE 45X90</td>
+                <td>ILVA PORC.45X90 COMPACT NEUTRAL</td>
+                <td><img class="imagen"src="./img/ceramicos/klaukol-red.jpg"></td>
+            </tr>
+            <tr>
+                <th scope="row">25/11/2022</th>
+                <td>95934567</td>
+                <td>Admin</td>
+                <td>Ilva</td>
+                <td>2.000.000</td>
+                <td>#CO NE 45X90</td>
+                <td>ILVA PORC.45X90 COMPACT NEUTRAL</td>
+                <td><img class="imagen"src="./img/ceramicos/klaukol-red.jpg"></td>
+            </tr>
+            <tr>
+                <th scope="row">25/11/2022</th>
+                <td>95934567</td>
+                <td>Admin</td>
+                <td>Ilva</td>
+                <td>2.000.000</td>
+                <td>#CO NE 45X90</td>
+                <td>ILVA PORC.45X90 COMPACT NEUTRAL</td>
+                <td><img class="imagen"src="./img/ceramicos/alberdi.webp"></td>
+            </tr>
+            <tr>
+                <th scope="row">25/11/2022</th>
+                <td>95934567</td>
+                <td>Admin</td>
+                <td>Ilva</td>
+                <td>2.000.000</td>
+                <td>#CO NE 45X90</td>
+                <td>ILVA PORC.45X90 COMPACT NEUTRAL</td>
+                <td><img class="imagen"src="./img/ceramicos/klaukol-verde.jpg"></td>
+            </tr>
+         
+            
 
 
     </table>
 
+</div>
+</div>
 
 
-
-
-    <footer class="py-4 mt-4"id="bgfooterLogin">
-        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
-    </footer>
+   
 
 
 

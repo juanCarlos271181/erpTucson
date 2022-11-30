@@ -83,8 +83,11 @@
     </div>
     </div>
 
+    <div class="container py-5">
+<div class="row">
+
 <hr>
-    <table class="table table-striped table-hover table-primary ">
+    <table class="table table-striped table-hover table-primary"style="width:100%">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -137,19 +140,54 @@
       <td>Talar</td>
       <td>600</td>
       <td>250</td>
-      <td>350</td>
-      
+      <td>350</td> 
     </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>0001</td>
+      <td>Ilva 45x90 Calacata</td>
+      <td>1104</td>
+      <td>Pisos y Porcelanatos</td>
+      <td>Talar</td>
+      <td>600</td>
+      <td>250</td>
+      <td>350</td> 
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>0001</td>
+      <td>Ilva 45x90 Calacata</td>
+      <td>1104</td>
+      <td>Pisos y Porcelanatos</td>
+      <td>Talar</td>
+      <td>600</td>
+      <td>250</td>
+      <td>350</td> 
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>0001</td>
+      <td>Ilva 45x90 Calacata</td>
+      <td>1104</td>
+      <td>Pisos y Porcelanatos</td>
+      <td>Talar</td>
+      <td>600</td>
+      <td>250</td>
+      <td>350</td> 
+    </tr>
+
   </tbody>
 </table>
-
+</div>
+</div>
 <br>
 
 
 
-<footer class="py-4 mt-4"id="bgfooterLogin">
-        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
-    </footer>
+
 
 
 

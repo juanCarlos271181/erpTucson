@@ -114,7 +114,7 @@
     <br>
 
     <span class="placeholder col-12 bg-secondary"></span>
-    <table class=" table table-striped table-hover">
+    <table class=" table table-dark table-hover">
         <thead>
             <tr class="table-primary">
                 <th scope="col">Código</th>

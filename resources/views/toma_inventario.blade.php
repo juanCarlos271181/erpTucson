@@ -44,7 +44,7 @@
 
 </div>
 <br>
-<span class="placeholder col-12 bg-secondary"></span>
+
 
 <br>
 <br>
@@ -85,7 +85,10 @@
 
 <span class="placeholder col-12 bg-secondary"></span>
 
-<table class=" table table-striped table-hover">
+<div class="container py-5">
+<div class="row">
+
+<table class=" table table-striped table-hover"style="width:100%">
         <thead>
             <tr class="table-primary">
                 <th scope="col">Código</th>
@@ -120,13 +123,11 @@
           
         </tbody>
     </table>
+</div>
+</div>
 
     
-
-    
-    <footer class="py-4 mt-4" id="bgfooterLogin">
-        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
-    </footer>
+   
 
 
 

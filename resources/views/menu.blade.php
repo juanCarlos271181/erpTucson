@@ -16,11 +16,11 @@
 
 
     <div class="tituloEntrada">
-      <h4>Menu Inventarios</h4>
+      <h4>INVENTARIO</h4>
 </div>
 <br>
 
-    <div class="container" style=" height:600px">
+    <div class="container mt-4" style=" height:500px">
 
         <form>
 
@@ -151,8 +151,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                         </div>
                         <div class="modal-body">
-                            <div class=" d-flex justify-content-center modal-body text-decoration-none" style="height:80px ">
-                                <a href="./inventario_salidas">
+                            <div class=" d-flex justify-content-center modal-body text-decoration-none" style="height:95px ">
+                                <a href="./crearProducto">
                                     <img src="./img/freeNuevo.png" class="card-img-top2 imagen20" alt="imagen de tarjeta" id="nuevoImg">
                                     <div class="linkSalida">
                                         <p>Nuevo</p>
@@ -325,9 +325,7 @@
     
 
 
-    <footer class="py-4 mt-4"id="bgfooterLogin">
-        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
-    </footer>
+   
 
 
 

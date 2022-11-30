@@ -114,7 +114,10 @@
     <br>
     <br>
 
-<table class=" table table-striped table-hover">
+    <div class="container py-5">
+<div class="row"style="width:100%">
+
+<table class=" table table-dark table-hover">
         <thead>
             <tr class="table-primary">
                 <th scope="col">Código</th>
@@ -122,6 +125,7 @@
                 <th scope="col">Precio Compra</th>
                 <th scope="col">Cantidad</th>
                 <th scope="col">Sub Total</th>
+                <th scope="col">img Articulo</th>
                 
             </tr>
         </thead>
@@ -131,54 +135,71 @@
                 <td>Rosseto 57x57</td>
                 <td>24JK</td>
                 <td>420.000<img class="imagen" src=""></td>
-                <td><img class="imagen"src=""></td>
+                <td>280.000</td>
+                <td><img class="imagen"src="./img/ceramicos/alberdi.webp"></td>
+                
             </tr>
             <tr>
-                <th scope="row"></th>
-                <td></td>
-                <td></td>
-                <td><img class="imagen" src=""></td>
-                <td><img class="imagen"src=""></td>
+                <th scope="row">000002</th>
+                <td>Rosseto 57x57</td>
+                <td>24JK</td>
+                <td>420.000<img class="imagen" src=""></td>
+                <td>280.000</td>
+                <td><img class="imagen"src="./img/ceramicos/klaukol-red.jpg"></td>
+                
             </tr>
             <tr>
-                <th scope="row"></th>
-                <td colspan=""></td>
-                <td></td>
-                <td><img class="imagen" src=""></td>
-                <td><img class="imagen"src=""></td>
+                <th scope="row">000003</th>
+                <td>Rosseto 57x57</td>
+                <td>24JK</td>
+                <td>420.000<img class="imagen" src=""></td>
+                <td>280.000</td>
+                <td><img class="imagen"src="./img/ceramicos/klaukol-red.jpg"></td>
+                
             </tr>
             <tr>
-                <th scope="row"></th>
-                <td colspan=""></td>
-                <td></td>
-                <td><img class="imagen"src=""></td>
-                <td><img class="imagen"src=""></td>
+                <th scope="row">000004</th>
+                <td>Rosseto 57x57</td>
+                <td>24JK</td>
+                <td>420.000<img class="imagen" src=""></td>
+                <td>280.000</td>
+                <td><img class="imagen"src="./img/ceramicos/black.webp"></td>
+                
             </tr>
             <tr>
-                <th scope="row"></th>
-                <td colspan=""></td>
-                <td></td>
-                <td><img class="imagen"src=""></td>
-                <td><img class="imagen"src=""></td>
+                <th scope="row">000005</th>
+                <td>Rosseto 57x57</td>
+                <td>24JK</td>
+                <td>420.000<img class="imagen" src=""></td>
+                <td>280.000</td>
+                <td><img class="imagen"src="./img/ceramicos/murano1.jpg"></td>
+                
             </tr>
             <tr>
-                <th scope="row"></th>
-                <td colspan=""></td>
-                <td></td>
-                <td><img class="imagen"src=""></td>
-                <td><img class="imagen"src=""></td>
+                <th scope="row">000006</th>
+                <td>Rosseto 57x57</td>
+                <td>24JK</td>
+                <td>420.000<img class="imagen" src=""></td>
+                <td>280.000</td>
+                <td><img class="imagen"src="./img/ceramicos/piazza-bacha.jpg"></td>
+                
             </tr>
             <tr>
-                <th scope="row"></th>
-                <td colspan=""></td>
-                <td></td>
-                <td><img class="imagen"src=""></td>
-                <td><img class="imagen"src=""></td>
+                <th scope="row">000001</th>
+                <td>Rosseto 57x57</td>
+                <td>24JK</td>
+                <td>420.000<img class="imagen" src=""></td>
+                <td>280.000</td>
+                <td><img class="imagen"src="./img/ceramicos/klaukol-verde.jpg"></td>
+                
             </tr>
+           
             
             </tr>
         </tbody>
     </table>
+   
+
 <br>
     <div class="text-center text-lg-center mt-4 pt-2">
               <button type="button" id="login" class="btn btn-primary btn-lg"                
@@ -187,11 +208,10 @@
             
             <br>
 
-            <footer class="py-4 mt-4"id="bgfooterLogin">
-        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
-    </footer>
+    
 
-
+            </div>
+    </div>
 
 </body>
 

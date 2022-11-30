@@ -156,6 +156,13 @@ Route::get('/dashboard', function () {
 Route::get('/menu_ventas', function () {
     return view('menu_ventas');
 });
+Route::get('/crearProducto', function () {
+    return view('crearProducto');
+});
+
+Route::get('/facturacion', function () {
+    return view('facturacion');
+});
 
 
 

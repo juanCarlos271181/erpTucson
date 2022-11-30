@@ -18,7 +18,7 @@
     </style>
 
 <div class="tituloEntrada">
-      <h4>Menu Principal</h4>
+      <h4>MENÚ PRINCIPAL</h4>
 </div>
 
 
@@ -37,12 +37,13 @@
             <br>
             <div class="col-12"id="card_inventario">
                 <div class="card" style="width:10rem; padding:10px">
-                    <div class="card-body">
-                        <h6>VENTAS</h6>
-                    </div>
+                   
                     <a href="./menu_ventas"class="button">
                     <img src="./img/ventasNew.png" class="card-img-top imagen20" alt="imagen de tarjeta">
                     </a>
+                    <div class="card-body">
+                        <h6>VENTAS</h6>
+                    </div>
                 </div>
             </div>
             <br>
@@ -56,6 +57,7 @@
                     </div>
                 </div>
             </div>
+          
             <br>
             <div class="col-12">
                 <div class="card" style="width:10rem; padding:10px">
@@ -90,23 +92,10 @@
                 </div>
             </div>
 
-
-
-
-
-
-
-
             <br>
 
-
         </div>
-
-
-
         <br>
-
-
 
         <div id="content1" class="contenedorMenu col-9">
             &nbsp;
@@ -114,9 +103,7 @@
         <!--/div-->
     </div>
 
-    <footer class="py-4 mt-4" id="bgfooterLogin">
-        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
-    </footer>
+   
 
 
 

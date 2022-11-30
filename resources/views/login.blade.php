@@ -61,9 +61,7 @@
   
     <br>
     
-    <footer class="py-5">
-      <?php include(app_path()."/../resources/views/template/footer.php");?>
-    </footer>  
+   
 
       </div>
   </section>

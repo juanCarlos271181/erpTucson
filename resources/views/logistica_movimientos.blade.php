@@ -34,8 +34,12 @@
     <div class="row">
         <div class="d-flex col justify-content-start">
             <div class="d-flex col-4">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input id="username" type="text" class="form-control w-100" placeholder="Buscar Productos" aria-label="Username" aria-describedby="basic-addon1">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Usuario Responsable</option>
+                    <option value="1">Juan</option>
+                    <option value="2">Roger</option>
+                    <option value="3">kevin</option>
+                </select>
             </div>
         </div>
     </div>
@@ -62,24 +66,32 @@
                     <option value="3">Intralog</option>
                 </select>
 
-                <div class="btn-group gap-2" role="group" aria-label="Basic mixed styles example">
-                    <button type="button" class="btn btn-success">Agregar</button>
-                    <button type="button" class="btn btn-warning">Modificar</button>
-                    <button type="button" class="btn btn-danger">Borrar</button>
-                </div>
+
+
+
             </div>
         </div>
     </div>
 </div>
 <hr>
-<ul></ul>
+
 <div class="container">
     <div class="row">
         <div class="d-flex justify-content-start">
             <div class="col-8 d-flex justify-content-between gap-4">
                 <input id="username" type="text" class="form-control w-100" placeholder="Código" aria-label="Username" aria-describedby="basic-addon1">
-                <input id="username" type="text" class="form-control w-100" placeholder="Articulo" aria-label="Username" aria-describedby="basic-addon1">
-                <input id="username" type="text" class="form-control w-100" placeholder="Lote" aria-label="Username" aria-describedby="basic-addon1">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Articulo</option>
+                    <option value="1">Ilva</option>
+                    <option value="2">San Lorenzo</option>
+                    <option value="3">Portinari</option>
+                </select>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Lote</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
                 <input id="username" type="number" class="form-control w-100" placeholder="Cantidad a Mover" aria-label="Username" aria-describedby="basic-addon1">
             </div>
         </div>
@@ -87,23 +99,79 @@
 </div>
 </ul>
 
+<div class="container">
+    <div class="row">
 
 
+        <table class="table table-dark table-hover" style="width:100%">
+                    <thead>
+                        <tr class="table-primary">
+                                    <th>Código</th>
+                                    <th>Descripción</th>
+                                    <th>Lote</th>
+                    <th>Accion</th>
+                                    
+                                
+                </tr>
+                        </thead>
+                    <tbody>
+                 <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
 
-<div class="col-6 p-4">
-    <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-        <label for="floatingTextarea">Observaciones</label>
+                    <td>
+                        <i class="fa-solid fa-plus" id="agregar"></i>
+                        <i class="fa-solid fa-pen-to-square" id="modificar"></i>
+                        <i class="fa-solid fa-trash-can" id="eliminar"></i>
+                    </td>
+
+                                  
+                                
+                </tr>
+                            <tr>
+                     
+                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+
+                    <td>
+                        <i class="fa-solid fa-plus" id="agregar"></i>
+                        <i class="fa-solid fa-pen-to-square" id="modificar"></i>
+                        <i class="fa-solid fa-trash-can" id="eliminar"></i>
+                    </td>
+
+
+                                  
+                                
+                </tr>
+                   
+            </tbody>
+                   
+                </table>
+
+    </div>
+</div>
+<br>
+<br>
+
+<div class="container py-5">
+    <div class="row">
+        <div class="form-floating d-flex" id="contenedorObservaciones">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Observaciones</label>
+        </div>
     </div>
 </div>
 
+
 <div class="container" id="contenedorGuardar">
     <div class="row">
-        <div class="d-flex col justify-content-center">
-            <div class="d-flex">
-                <i class="fa-solid fa-upload"></i>
-                <button type="button" class="btn btn-success" id="botonCargar"></button>
-            </div>
+        <div class="d-flex justify-content-start">
+            <i class="fa-regular fa-floppy-disk" id="guardar"></i>
+            <button type="button" class="btn btn-success" id="botonCargar"></button>
+
         </div>
     </div>
 </div>
@@ -112,9 +180,8 @@
 
 
 
-<footer class="py-4 mt-4"id="bgfooterLogin">
-        <?php include(app_path() . "/../resources/views/template/footer.php"); ?>
-    </footer>
+
+
 
 
 

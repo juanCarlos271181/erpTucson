@@ -16,7 +16,7 @@
     </header>
 
     <div class="container py-5">
-<div class="row w-100">
+<div class="row">
 
 
     <table id="griferia" class="table table-striped" style="width:100%">

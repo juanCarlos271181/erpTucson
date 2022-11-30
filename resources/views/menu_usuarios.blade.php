@@ -13,7 +13,7 @@
 
 
     <div class="tituloEntrada">
-      <h4>Menu usuarios</h4>
+      <h4>USUARIOS</h4>
 </div>
 
     <div class="d-flex  justify-content-center aling-items-center contenedorMenu " style=" height:420px">
